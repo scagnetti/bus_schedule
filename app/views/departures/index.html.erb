@@ -1,0 +1,31 @@
+<h1>Listing departures</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day type</th>
+      <th>Hour</th>
+      <th>Minute</th>
+      <th>Bus stop</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @departures.each do |departure| %>
+      <tr>
+        <td><%= departure.day_type %></td>
+        <td><%= departure.hour %></td>
+        <td><%= departure.minute %></td>
+        <td><%= departure.bus_stop %></td>
+        <td><%= link_to 'Show', departure %></td>
+        <td><%= link_to 'Edit', edit_departure_path(departure) %></td>
+        <td><%= link_to 'Destroy', departure, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Departure', new_departure_path %>

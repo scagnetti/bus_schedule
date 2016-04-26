@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-md-4">
+    <h1>Regensburg</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <ol class="breadcrumb">
+      <li><%= link_to 'Buslinien', lines_path %></li>
+      <li><%= link_to @direction.line.name, line_path(@direction.line) %></li>
+      <li class="active"><%= @direction.display_name %></li>
+    </ol>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+		<p>
+			Haltestellen:
+		</p>
+  </div>
+</div>
+
+<% if logged_in? %>
+  <div class="col-md-4">
+      <ul class="list-group">
+        <% @direction.bus_stops.each do |bus_stop| %>
+          <li class="list-group-item">
+            <%= link_to bus_stop.display_name, bus_stop %> / 
+            <%= link_to 'Edit', edit_bus_stop_path(bus_stop) %> / 
+            <%= link_to 'Destroy', bus_stop, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <%= link_to 'Haltestelle hinzufügen', new_bus_stop_path, class: "btn btn-link" %>
+    </div>
+  </div>
+<% else %>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="list-group">
+        <% @direction.bus_stops.each do |bus_stop| %>
+          <%= link_to bus_stop.display_name, bus_stop, class: "list-group-item" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>

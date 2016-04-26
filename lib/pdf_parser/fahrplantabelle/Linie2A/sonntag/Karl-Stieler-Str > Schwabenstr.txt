@@ -1,0 +1,29 @@
+Linie   2               und zurück
+Sonn-/Feiertag           6  7    8    9-18    19   20-23 0                
+Graß                        05 05     05    06    06                      
+Brunnstraße                 05 05     05    06    06                      
+Fernsehsender Ziegetsdorf   06 06     06    07    07                      
+Graßer Weg                  07 07     07    08    08                      
+Karl-Stieler-Straße      08 08 08 38 08 38 09 39 09 39                    
+Graßer Weg               09 09 09 39 09 39 10 40 10 40                    
+Geibelplatz              09 09 09 39 09 39 10 40 10 40                    
+Wolfgangschule Süd       10 10 10 40 10 40 11 41 11 41                    
+Theodor-Storm-Straße     11 11 11 41 11 41 12 42 12 42                    
+Augsburger Straße        12 12 12 42 12 42 13 43 13 43                    
+Theresienkirche          14 14 14 44 14 44 14 44 14 44                    
+Justizgebäude            16 16 16 46 16 46 16 46 16 46                    
+Bismarckplatz            17 17 17 47 17 47 17 47 17 47                    
+Arnulfsplatz             19 19 19 49 19 49 19 49 19 49                    
+Fischmarkt               21 21 21 51 21 51 21 51 21 51                    
+Thundorferstraße         22 22 22 52 22 52 22 52 22 52                    
+Dachauplatz              25 25 25 55 25 55 25 55 25 55                    
+HBF/Albertstraße     ab 30 30 30 00 30 00 30 00 30 00                     
+Stobäusplatz             32 32 32 02 32 02 32 02 32 02                    
+Herm.-Geib-Straße        34 34 34 04 34 04 33 03 33 03                    
+Safferlingstraße         35 35 35 05 35 05 34 04 34 04                    
+Krankenhaus St. Josef    36 36 36 06 36 06 35 05 35 05                    
+Zeißstraße               37 37 37 07 37 07 36 06 36 06                    
+Bajuwarenstraße          38 38 38 08 38 08 37 07 37 07                    
+Benzstraße               39 39 39 09 39 09 38 08 38 08                    
+Schöneberger Straße      40 40 40 10 40 10 39 09 39 09                    
+Schwabenstraße           42 42 42 12 42 12 41 11 41 11                    

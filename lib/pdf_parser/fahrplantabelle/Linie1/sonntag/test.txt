@@ -1,0 +1,126 @@
+  0
+
+
+                                Prüfening - Lilienthalstraße - HBF/Albertstraße -
+
+     Linie    1                 Weichs - Pommernstraße
+
+
+     gültig von 30.03.-10.04.2015 (Sperrung Thundorferstraße)
+
+
+     Sonn-/Feiertag               6-7   8    9-18  19   20-23 0
+
+     Prüfening                   06   06 36 06 36 09 39 09 39
+
+     Rennweg                     06   06 36 06 36 09 39 09 39
+     Rennplatz                   07   07 37 07 37 10 40 10 40
+     Lilienthalstraße            09   09 39 09 39 12 42 12 42
+
+     Margaretenau/KH Barm. Brüder 11  11 41 11 41 13 43 13 43
+     Lessingstraße               12   12 42 12 42 14 44 14 44
+
+     Goethestraße                13   13 43 13 43 15 45 15 45
+     Taxisstraße                 14   14 44 14 44 16 46 16 46
+     Bismarckplatz               16   16 46 16 46 18 48 18 48
+
+     Justizgebäude               18   18 48 18 48 20 50 20 50
+     Bahnhofstraße               19   19 49 19 49 21 51 21 51
+     Hauptbahnhof                26   26 56 26 56 26 56 26 56
+
+     HBF/Albertstraße         an 27   27 57 27 57 27 57 27 57
+     HBF/Albertstraße         ab 30   30 00 30 00 30 00 30 00
+     Stobäusplatz                32   32 02 32 02 32 02 32 02
+
+     Weißenburgstraße            34   34 04 34 04 33 03 33 03
+     Weichs-DEZ                  36   36 06 36 06 35 05 35 05
+     Donaustaufer Straße         37   37 07 37 07 36 06 36 06
+
+     Nordgaustraße               38   38 08 38 08 37 07 37 07
+     Sudetendeutsche Straße      39   39 09 39 09 38 08 38 08
+     Sandgasse                   40   40 10 40 10 39 09 39 09
+
+     Memeler Straße              41   41 11 41 11 40 10 40 10
+     Dolomitenstraße             43   43 13 43 13 42 12 42 12
+
+     Argonnenstraße              44   44 14 44 14 43 13 43 13
+     Pommernstraße               46   46 16 46 16 45 15 45 15
+
+
+
+
+
+
+
+
+
+
+                                Pommernstraße - Weichs - HBF/Albertstraße -
+
+     Linie    1                 Lilienthalstraße - Prüfening
+
+
+     gültig von 30.03.-10.04.2015 (Sperrung Thundorferstraße)
+
+
+     Sonn-/Feiertag               6-7   8     9    10    11    12  13-17  18    19   20-22 23 0
+
+
+     Pommernstraße               11   11 56 26 56 26 56 26 55 25 55 25 55 25 56 26 56 26 56 26
+     Berliner Straße             11   11 56 26 56 26 56 26 55 25 55 25 55 25 56 26 56 26 56 26
+     Mecklenburger Straße        12   12 57 27 57 27 57 27 56 26 56 26 56 26 57 27 57 27 57 27
+
+     Ostpreußenstraße            13   13 58 28 58 28 58 28 57 27 57 27 57 27 58 28 58 28 58 28
+     Aussiger Straße             14   14 59 29 59 29 59 29 59 29 59 29 59 29 59 29 59 29 59 29
+     Memeler Straße              15   15 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30
+
+     Sandgasse                   16   16 01 31 01 31 01 31 01 31 01 31 01 31 01 31 01 31 01 31
+     Sudetendeutsche Straße      17   17 02 32 02 32 02 32 02 32 02 32 02 32 02 32 02 32 02 32
+     Nordgaustraße               19   19 04 34 04 34 04 34 04 34 04 34 04 34 04 34 04 34 04 34
+
+     Donaustaufer Straße         20   20 05 35 05 35 05 35 05 35 05 35 05 35 05 35 05 35 05 35
+     Weichs-DEZ                  21   21 06 36 06 36 06 36 06 36 06 36 06 36 06 36 06 36 06 36
+     Weißenburgstraße            23   23 08 38 08 38 08 38 08 38 08 38 08 38 08 38 08 38 08 38
+
+     Stobäusplatz                24   24 09 39 09 39 09 39 09 39 09 39 09 39 09 39 09 39 09 39
+     HBF/Albertstraße         an 27   27 12 42 12 42 12 42 12 42 12 42 12 42 12 42 12 42 12 42
+     HBF/Albertstraße         ab 30   30 15 45 15 45 15 45 15 45 15 45 15 45 15 45 15 45 15 45 00
+
+     Justizgebäude               32   32 17 47 17 47 17 47 17 47 17 47 17 47 17 47 17 47 17 47 02
+     Bismarckplatz               34   34 19 49 19 49 19 49 19 49 19 49 19 49 19 49 19 49 19 49 04
+
+     Taxisstraße                 40   40 25 55 25 55 25 55 25 55 25 55 25 55 25 55 25 55 25 55 10
+     Goethestraße                41   41 26 56 26 56 26 56 26 56 26 56 26 56 26 56 26 56 26 56 11
+     Lessingstraße               42   42 27 57 27 57 27 57 27 57 27 57 27 57 27 57 27 57 27 57 12
+
+     Margaretenau/KH Barm. Brüder 43  43 28 58 28 58 28 58 28 58 28 58 28 58 28 58 28 58 28 58 13
+     Michael-Burgau-Straße       44   44 29 59 29 59 29 59 29 59 29 59 29 59 29 59 29 59 29 59 14
+     Lilienthalstraße            45   45 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 15
+
+     Rennplatz                   46   46 31 01 31 01 31 01 31 01 31 01 31 01 31 01 31 01 31 01 16
+     Killermannstraße            47   47 32 02 32 02 32 02 32 02 32 02 32 02 32 02 32 02 32 02 17
+     Deiningerstraße             48   48 33 03 33 03 33 03 33 03 33 03 33 03 33 03 33 03 33 03 18
+
+     Annahofstraße               49   49 34 04 34 04 34 04 35 05 35 05 35 05 34 04 34 04 34 04 19
+     An den Klostergründen       50   50 35 05 35 05 35 05 36 06 36 06 36 06 35 05 35 05 35 05 20
+     Prüfening                   53   53 38 08 38 08 38 08 39 09 39 09 39 09 38 08 38 08 38 08 23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Seite: 0 Satzspiegel: M Regie 1 Erstellungszeit: 11.03.2015 09:50:56

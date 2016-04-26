@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day type:</strong>
+  <%= @departure.day_type %>
+</p>
+
+<p>
+  <strong>Hour:</strong>
+  <%= @departure.hour %>
+</p>
+
+<p>
+  <strong>Minute:</strong>
+  <%= @departure.minute %>
+</p>
+
+<p>
+  <strong>Bus stop:</strong>
+  <%= @departure.bus_stop %>
+</p>
+
+<%= link_to 'Edit', edit_departure_path(@departure) %> |
+<%= link_to 'Back', departures_path %>

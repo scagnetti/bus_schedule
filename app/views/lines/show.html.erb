@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-md-4">
+    <h1>Regensburg</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <ol class="breadcrumb">
+      <li><%= link_to 'Buslinien', lines_path %></li>
+      <li class="active"><%= @line.name %></li>
+    </ol>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <p>
+      Richtung:
+    </p>
+  </div>
+</div>
+
+<% if logged_in? %>
+  <div class="row">
+    <div class="col-md-4">
+      <ul class="list-group">
+        <% @line.directions.each do |direction| %>
+          <li class="list-group-item">
+            <%= link_to direction.display_name, direction %> / 
+            <%= link_to 'Edit', edit_direction_path(direction) %> / 
+            <%= link_to 'Destroy', direction, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </li>  
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <%= link_to 'Richtung hinzufügen', new_direction_path, class: "btn btn-link" %>
+    </div>
+  </div>
+<% else %>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="list-group">
+        <% @line.directions.each do |direction| %>
+          <%= link_to direction.display_name, direction, class: "list-group-item" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>

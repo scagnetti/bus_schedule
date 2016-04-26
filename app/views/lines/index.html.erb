@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-4">
+    <h1>Regensburg</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <ol class="breadcrumb">
+      <li class="active">Buslinien</li>
+    </ol>
+  </div>
+</div>
+
+<% if logged_in? %>
+
+  <div class="row">
+    <div class="col-md-4">
+      <ul class="list-group">
+        <% @lines.each do |line| %>
+          <li class="list-group-item">
+            <%= link_to "#{line.name}", line %> / 
+            <%= link_to 'Edit', edit_line_path(line) %> / 
+            <%= link_to 'Destroy', line, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <%= link_to 'Linie hinzufügen', new_line_path, class: "btn btn-link" %>
+    </div>
+  </div>
+
+<% else %>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="list-group">
+        <% @lines.each do |line| %>
+            <%= link_to "#{line.name}", line, class: "list-group-item" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  
+<% end %>
+

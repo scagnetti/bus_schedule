@@ -1,0 +1,52 @@
+Wernerwerkstraße - Westbad - Bismarckplatz -
+Linie   6           HBF/Albertstraße - Universität - Klinikum
+gültig von 30.03.-10.04.2015 (Sperrung Thundorferstraße)
+Samstag             5    6      7       8-17     18    19   20-22  23    0
+Wernerwerkstraße    36 06 36 06 35 55 15 35 55 15 35 06 36 06 36 06 36
+Westbad             37 07 37 07 36 56 16 36 56 16 36 07 37 07 37 07 37
+Westheim            38 08 38 08 37 57 17 37 57 17 37 08 38 08 38 08 38
+Weinweg             39 09 39 09 38 58 18 38 58 18 38 09 39 09 39 09 39
+Theresienweg        40 10 40 10 39 59 19 39 59 19 39 10 40 10 40 10 40
+Boessnerstraße      41 11 41 11 40 00 20 40 00 20 40 11 41 11 41 11 41
+Josef-Adler-Straße  42 12 42 12 41 01 21 41 01 21 41 12 42 12 42 12 42
+Albertus-Magnus-Gym.43 13 43 13 42 02 22 42 02 22 42 13 43 13 43 13 43
+Gumpelzhaimerstraße 44 14 44 14 43 03 23 43 03 23 43 14 44 14 44 14 44
+Ostdeutsche Galerie 46 16 46 16 45 05 25 45 05 25 45 16 46 16 46 16 46
+Bismarckplatz       48 18 48 18 48 08 28 48 08 28 48 18 48 18 48 18 48
+Justizgebäude       50 20 50 20 50 10 30 50 10 30 50 20 50 20 50 20 50
+Bahnhofstraße       51 21 51 21 52 12 32 52 12 32 52 21 51 21 51 21 51
+Hauptbahnhof        55 25 55 25 56 16 36 56 16 36 56 25 55 25 55 25 55
+HBF/Albertstraße ab 00 30 00 30 00 20 40 00 20 40 00 30 00 30 00 30 00
+HBF Süd/Arcaden     01 31 01 31 01 21 41 01 21 41 01 31 01 31 01 31 01
+Haydnstraße         02 32 02 32 02 22 42 02 22 42 02 32 02 32 02 32 02
+Galgenberg          03 33 03 33 03 23 43 03 23 43 03 33 03 33 03 33 03
+Otto-Hahn-Straße    04 34 04 34 04 24 44 04 24 44 04 34 04 34 04 34 04
+Universität         06 36 06 36 06 26 46 06 26 46 06 36 06 36 06 36 06
+An der Kreuzbreite  07 37 07 37 07 27 47 07 27 47 07 37 07 37 07 37 07
+Neuprüll            08 38 08 38 08 28 48 08 28 48 08 38 08 38 08 38 08
+Klinikum West       10 40 10 40 10 30 50 10 30 50 10 40 10 40 10 40
+Klinikum            12 42 12 42 11 31 51 11 31 51 11 42 12 42 12 42
+Klinikum - Universität - HBF/Albertstraße -
+Linie   6           Bismarckplatz - Westbad - Wernerwerkstraße
+gültig von 30.03.-10.04.2015 (Sperrung Thundorferstraße)
+Samstag              5      6     7       8       9-18    19   20-23  0
+Klinikum               47 17 47 17 47 07 27 47 07 27 47 17 47 17 47
+Neuprüll               48 18 48 18 48 08 28 48 08 28 48 18 48 18 48
+An der Kreuzbreite     49 19 49 19 49 09 29 49 09 29 49 19 49 19 49
+Universität            50 20 50 20 51 11 31 51 11 31 51 20 50 20 50
+Otto-Hahn-Straße       52 22 52 22 53 13 33 53 13 33 53 22 52 22 52
+Galgenberg             53 23 53 23 54 14 34 54 14 34 54 23 53 23 53
+Haydnstraße            54 24 54 24 55 15 35 55 15 35 55 24 54 24 54
+HBF Süd/Arcaden        55 25 55 25 57 17 37 57 17 37 57 25 55 25 55
+HBF/Albertstraße ab 30 00 30 00 30 00 20 40 00 20 40 00 30 00 30 00
+Justizgebäude       32 02 32 02 32 02 22 42 02 22 42 02 32 02 32 02
+Bismarckplatz       34 04 34 04 34 04 24 44 04 24 44 04 34 04 34 04
+Ostdeutsche Galerie 40 10 40 10 40 13 33 53 13 33 53 13 41 11 41 11
+Gumpelzhaimerstraße 41 11 41 11 41 14 34 54 14 34 54 14 42 12 42 12
+Albertus-Magnus-Gym.42 12 42 12 42 15 35 55 15 35 55 15 43 13 43 13
+Josef-Adler-Straße  43 13 43 13 43 16 36 56 16 36 56 16 44 14 44 14
+Boessnerstraße      44 14 44 14 44 17 37 57 17 37 57 17 45 15 45 15
+Weinweg             45 15 45 15 45 18 38 58 18 38 58 18 46 16 46 16
+Westheim            46 16 46 16 46 19 39 59 19 39 59 19 47 17 47 17
+Westbad             48 18 48 18 48 21 41 01 21 41 01 21 49 19 49 19
+Wernerwerkstraße    50 20 50 20 50 23 43 03 23 43 03 23 50 20 50 20

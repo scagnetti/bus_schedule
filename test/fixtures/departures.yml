@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  day_type: 1
+  hour: 1
+  minute: MyString
+  bus_stop_id: 
+
+two:
+  day_type: 1
+  hour: 1
+  minute: MyString
+  bus_stop_id: 

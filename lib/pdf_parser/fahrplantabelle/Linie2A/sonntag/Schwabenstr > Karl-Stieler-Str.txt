@@ -1,0 +1,29 @@
+Linie   2               und zurück
+Sonn-/Feiertag           6    7    8  9-18    19   20-23  0
+Schwabenstraße           46    46 31 01 31 01 31 01 31
+Schöneberger Straße      47    47 32 02 32 01 31 01 31
+Benzstraße               48    48 33 03 33 02 32 02 32
+Bajuwarenstraße          49    49 34 04 34 04 34 04 34
+Zeißstraße               50    50 35 05 35 05 35 05 35
+Krankenhaus St. Josef    51    51 36 06 36 06 36 06 36
+Safferlingstraße         52    52 37 07 37 07 37 07 37
+Herm.-Geib-Straße        53    53 38 08 38 08 38 08 38
+Stobäusplatz             54    54 39 09 39 09 39 09 39
+HBF/Albertstraße     ab 00     00 45 15 45 15 45 15 45
+Dachauplatz              02    02 47 17 47 17 47 17 47
+Thundorferstraße         04    04 49 19 49 19 49 19 49
+Fischmarkt               05    05 50 20 50 20 50 20 50
+Arnulfsplatz             08    08 53 23 53 23 53 23 53
+Bismarckplatz            09    09 54 24 54 24 54 24 54
+Justizgebäude            10    10 55 25 55 25 55 25 55
+Gutenbergstraße          11    11 56 26 56 27 57 27 57
+Wolfgangskirche          13    13 58 28 58 28 58 28 58
+Nibelungenstraße         14    14 59 29 59 29 59 29 59
+Theodor-Storm-Straße     15    15 00 30 00 30 00 30 00
+Wolfgangschule Süd       16    16 01 31 01 31 01 31 01
+Geibelplatz              17    17 02 32 02 32 02 32 02
+Graßer Weg               18    18 03 33 03 33 03 33 03
+Karl-Stieler-Straße      19    19 04 34 04 34 04 34 04
+Fernsehsender Ziegetsdorf20    20 05     05    05     05
+Brunnstraße              22    22 07     07    07     07
+Graß                     24    24 09     09    08     08

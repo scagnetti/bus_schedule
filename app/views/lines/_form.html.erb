@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-lg-2 col-md-4">
+    <%= form_for(@line) do |f| %>
+      <% if @line.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@line.errors.count, "error") %> prohibited this line from being saved:</h2>
+
+          <ul>
+          <% @line.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.label :name %>
+        <%= f.text_field :name, class: "form-control" %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit nil, class: "btn btn-default" %>
+      </div>
+    <% end %>
+  </div>
+</div>
