@@ -29,7 +29,7 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.10'
 # Use unicorn as the app server
 # gem 'unicorn'
-# gem 'pdf-reader', '1.3.3'
+gem 'pdf-reader', '1.3.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # WebApp Testing Framework
@@ -49,3 +49,4 @@ group :production do
   gem 'mysql2'
 end
 
+gem 'seed_dump'
