@@ -1,6 +1,3 @@
-User.create!([
-  {email: "volker", password_digest: "$2a$10$q2njUeCM7rZFVBT.sdcTSOIAz4QNAOMl3q4i0nzfGVBoMIr5kuToG"}
-])
 BusStop.create!([
   {display_name: "Graß", search_name: "Regensburg, Graß", direction_id: 1},
   {display_name: "Brunnstraße", search_name: "Regensburg, Graß Brunnstraße", direction_id: 1},
