@@ -37,7 +37,7 @@ gem 'capybara'
 # Webbrowser for testing
 gem 'poltergeist'
 # MySql Support
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.18'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
