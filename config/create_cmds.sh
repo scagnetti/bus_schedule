@@ -1,5 +1,5 @@
 #!/bin/bash
-bin/rails generate scaffold Line name:string
+bin/rails generate scaffold BusLine name:string
 bin/rails generate scaffold Direction name:string line:references
 bin/rails generate scaffold BusStop name:string direction:references
 bin/rails generate scaffold Departure day_type:integer hour:integer minute:string bus_stop:references

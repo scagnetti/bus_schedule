@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  resources :departures
-
-  resources :bus_stops
+  resources :bus_lines
 
   resources :directions
 
-  resources :lines
+  resources :bus_stops
+
+  resources :departures
 
   resources :users
 
@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root to: "lines#index"
+  root to: "bus_lines#index"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

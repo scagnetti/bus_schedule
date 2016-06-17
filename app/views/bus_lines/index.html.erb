@@ -17,10 +17,10 @@
   <div class="row">
     <div class="col-md-4">
       <ul class="list-group">
-        <% @lines.each do |line| %>
+        <% @bus_lines.each do |line| %>
           <li class="list-group-item">
             <%= link_to "#{line.name}", line %> / 
-            <%= link_to 'Edit', edit_line_path(line) %> / 
+            <%= link_to 'Edit', edit_bus_line_path(line) %> / 
             <%= link_to 'Destroy', line, method: :delete, data: { confirm: 'Are you sure?' } %>
           </li>
         <% end %>
@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-md-4">
       <div class="list-group">
-        <% @lines.each do |line| %>
+        <% @bus_lines.each do |line| %>
             <%= link_to "#{line.name}", line, class: "list-group-item" %>
         <% end %>
       </div>

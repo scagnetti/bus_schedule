@@ -75,7 +75,7 @@ class BusStopsController < ApplicationController
     internet.find(:xpath, '//label[text() = "Regionalbus"]').click
     # Select the right direction
     xpath = "//label[text() = '%s']" % p_direction
-    id = internet.find(:xpath, xpath)['for']
+    id = internet.first(:xpath, xpath)['for']
     xpath = "//label[@for='%s']" % id
     internet.first(:xpath, xpath).click
     

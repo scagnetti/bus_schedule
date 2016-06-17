@@ -18,7 +18,7 @@ class DirectionsControllerTest < ActionController::TestCase
 
   test "should create direction" do
     assert_difference('Direction.count') do
-      post :create, direction: { line_id: @direction.line_id, name: @direction.name }
+      post :create, direction: { line_id: @direction.bus_line_id, name: @direction.name }
     end
 
     assert_redirected_to direction_path(assigns(:direction))
@@ -35,7 +35,7 @@ class DirectionsControllerTest < ActionController::TestCase
   end
 
   test "should update direction" do
-    patch :update, id: @direction, direction: { line_id: @direction.line_id, name: @direction.name }
+    patch :update, id: @direction, direction: { line_id: @direction.bus_line_id, name: @direction.name }
     assert_redirected_to direction_path(assigns(:direction))
   end
 

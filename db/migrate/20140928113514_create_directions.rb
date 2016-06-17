@@ -3,7 +3,7 @@ class CreateDirections < ActiveRecord::Migration
     create_table :directions do |t|
       t.string :display_name
       t.string :search_name
-      t.references :line, index: true
+      t.references :bus_line, index: true
 
       t.timestamps
     end

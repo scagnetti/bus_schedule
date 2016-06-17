@@ -19,9 +19,9 @@ BusStop.create!([
   {display_name: "Albertstraße", search_name: "Regensburg, HBF/Albertstraße", direction_id: 1}
 ])
 Direction.create!([
-  {display_name: "Schwabenstraße", search_name: "Regensburg Schwabenstraße", line_id: 5},
-  {display_name: "Karl-Stieler-Straße", search_name: "Regensburg Karl-Stieler-Straße", line_id: 5}
+  {display_name: "Schwabenstraße", search_name: "Regensburg Schwabenstraße", bus_line_id: 1},
+  {display_name: "Karl-Stieler-Straße", search_name: "Regensburg Karl-Stieler-Straße", bus_line_id: 1}
 ])
-Line.create!([
+BusLine.create!([
   {name: "Linie2AB"}
 ])

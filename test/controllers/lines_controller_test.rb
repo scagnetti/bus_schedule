@@ -21,7 +21,7 @@ class LinesControllerTest < ActionController::TestCase
       post :create, line: { name: @line.name }
     end
 
-    assert_redirected_to line_path(assigns(:line))
+    assert_redirected_to bus_line_path(assigns(:line))
   end
 
   test "should show line" do
@@ -36,7 +36,7 @@ class LinesControllerTest < ActionController::TestCase
 
   test "should update line" do
     patch :update, id: @line, line: { name: @line.name }
-    assert_redirected_to line_path(assigns(:line))
+    assert_redirected_to bus_line_path(assigns(:line))
   end
 
   test "should destroy line" do
@@ -44,6 +44,6 @@ class LinesControllerTest < ActionController::TestCase
       delete :destroy, id: @line
     end
 
-    assert_redirected_to lines_path
+    assert_redirected_to bus_lines_path
   end
 end

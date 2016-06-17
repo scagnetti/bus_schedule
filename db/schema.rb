@@ -13,6 +13,12 @@
 
 ActiveRecord::Schema.define(version: 20150410143341) do
 
+  create_table "bus_lines", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "bus_stops", force: :cascade do |t|
     t.string   "display_name"
     t.string   "search_name"
@@ -38,18 +44,12 @@ ActiveRecord::Schema.define(version: 20150410143341) do
   create_table "directions", force: :cascade do |t|
     t.string   "display_name"
     t.string   "search_name"
-    t.integer  "line_id"
+    t.integer  "bus_line_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "directions", ["line_id"], name: "index_directions_on_line_id"
-
-  create_table "lines", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+  add_index "directions", ["bus_line_id"], name: "index_directions_on_bus_line_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email"

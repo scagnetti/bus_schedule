@@ -7,8 +7,8 @@
 <div class="row">
   <div class="col-md-4">
     <ol class="breadcrumb">
-      <li><%= link_to 'Buslinien', lines_path %></li>
-      <li class="active"><%= @line.name %></li>
+      <li><%= link_to 'Buslinien', bus_lines_path %></li>
+      <li class="active"><%= @bus_line.name %></li>
     </ol>
   </div>
 </div>
@@ -25,7 +25,7 @@
   <div class="row">
     <div class="col-md-4">
       <ul class="list-group">
-        <% @line.directions.each do |direction| %>
+        <% @bus_line.directions.each do |direction| %>
           <li class="list-group-item">
             <%= link_to direction.display_name, direction %> / 
             <%= link_to 'Edit', edit_direction_path(direction) %> / 
@@ -44,7 +44,7 @@
   <div class="row">
     <div class="col-md-4">
       <div class="list-group">
-        <% @line.directions.each do |direction| %>
+        <% @bus_line.directions.each do |direction| %>
           <%= link_to direction.display_name, direction, class: "list-group-item" %>
         <% end %>
       </div>

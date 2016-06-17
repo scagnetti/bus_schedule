@@ -7,8 +7,8 @@
 <div class="row">
   <div class="col-sm-12">
     <ol class="breadcrumb" style="margin-bottom:0px">
-      <li><%= link_to 'Buslinien', lines_path %></li>
-      <li><%= link_to @bus_stop.direction.line.name, line_path(@bus_stop.direction.line) %></li>
+      <li><%= link_to 'Buslinien', bus_lines_path %></li>
+      <li><%= link_to @bus_stop.direction.bus_line.name, bus_line_path(@bus_stop.direction.bus_line) %></li>
       <li><%= link_to 'Richtung ' + @bus_stop.direction.display_name, direction_path(@bus_stop.direction) %></li>
       <!--<li class="active"><%= @bus_stop.display_name %></li>-->
     </ol>
