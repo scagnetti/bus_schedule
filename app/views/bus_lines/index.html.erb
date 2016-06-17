@@ -1,48 +1,30 @@
-<div class="row">
-  <div class="col-md-4">
-    <h1>Regensburg</h1>
-  </div>
-</div>
+<ol class="breadcrumb">
+  <li class="active">Buslinien</li>
+</ol>
 
-<div class="row">
-  <div class="col-md-4">
-    <ol class="breadcrumb">
-      <li class="active">Buslinien</li>
-    </ol>
-  </div>
-</div>
+<h1>Regensburg</h1>
+<h4>Welchen Bus möchtest Du nehmen?</h4>
 
 <% if logged_in? %>
 
-  <div class="row">
-    <div class="col-md-4">
-      <ul class="list-group">
-        <% @bus_lines.each do |line| %>
-          <li class="list-group-item">
-            <%= link_to "#{line.name}", line %> / 
-            <%= link_to 'Edit', edit_bus_line_path(line) %> / 
-            <%= link_to 'Destroy', line, method: :delete, data: { confirm: 'Are you sure?' } %>
-          </li>
-        <% end %>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <%= link_to 'Linie hinzufügen', new_line_path, class: "btn btn-link" %>
-    </div>
-  </div>
+  <ul class="list-group">
+    <% @bus_lines.each do |line| %>
+      <li class="list-group-item">
+        <%= link_to "#{line.name}", line %> / 
+        <%= link_to 'Edit', edit_bus_line_path(line) %> / 
+        <%= link_to 'Destroy', line, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </li>
+    <% end %>
+  </ul>
+  <%= link_to 'Linie hinzufügen', new_line_path, class: "btn btn-link" %>
 
 <% else %>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="list-group">
-        <% @bus_lines.each do |line| %>
-            <%= link_to "#{line.name}", line, class: "list-group-item" %>
-        <% end %>
-      </div>
-    </div>
-  </div>
   
+  <div class="list-group">
+    <% @bus_lines.each do |line| %>
+        <%= link_to "#{line.name}", line, class: "list-group-item" %>
+    <% end %>
+  </div>
+
 <% end %>
 

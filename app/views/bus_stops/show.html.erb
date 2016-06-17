@@ -1,71 +1,51 @@
-<div class="row">
-  <div class="col-sm-12">
-    <h1>Regensburg</h1>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-12">
-    <ol class="breadcrumb" style="margin-bottom:0px">
-      <li><%= link_to 'Buslinien', bus_lines_path %></li>
-      <li><%= link_to @bus_stop.direction.bus_line.name, bus_line_path(@bus_stop.direction.bus_line) %></li>
-      <li><%= link_to 'Richtung ' + @bus_stop.direction.display_name, direction_path(@bus_stop.direction) %></li>
-      <!--<li class="active"><%= @bus_stop.display_name %></li>-->
-    </ol>
-  </div>
-</div>
+<ol class="breadcrumb" style="margin-bottom:0px">
+  <li><%= link_to 'Buslinien', bus_lines_path %></li>
+  <li><%= link_to @bus_stop.direction.bus_line.name, bus_line_path(@bus_stop.direction.bus_line) %></li>
+  <li><%= link_to 'Richtung ' + @bus_stop.direction.display_name, direction_path(@bus_stop.direction) %></li>
+  <!--<li class="active"><%= @bus_stop.display_name %></li>-->
+</ol>
+<h1>Regensburg</h1>
 
 <%= javascript_tag do %>
   window.departures = <%= raw @date_and_time_departures.to_json %>;
 <% end %>
 
-<div class="row">
-  <div class="col-sm-4">
+<h3><span class="label label-warning">Haltestelle: <%= @bus_stop.display_name %></span></h3>
 
-    <h3><span class="label label-warning">Haltestelle: <%= @bus_stop.display_name %></span>
-    </h3>
-
-    <h3>
-      <span class="label label-success">Abfahrt in:
-        <!-- Count Down Element-->
-        <span id="clock"></span>
-      </span>
-      <script type="text/javascript">
-        $('span#clock').countdown(departures.shift())
-          .on('update.countdown', function(event) {
-            $(this).html(event.strftime('%H:%M:%S'));
-          })
-          .on('finish.countdown', function(event) {
-            console.log('Timer expired');
-            if (departures.length > 0) {
-              console.log('Resetting...');
-              $('span#clock').countdown(departures.shift());
-            }
-          });
-      </script>
-    </h3>
+<h3>
+  <span class="label label-success">Abfahrt in:
+    <!-- Count Down Element-->
+    <span id="clock"></span>
+  </span>
+  <script type="text/javascript">
+    $('span#clock').countdown(departures.shift())
+      .on('update.countdown', function(event) {
+        $(this).html(event.strftime('%H:%M:%S'));
+      })
+      .on('finish.countdown', function(event) {
+        console.log('Timer expired');
+        if (departures.length > 0) {
+          console.log('Resetting...');
+          $('span#clock').countdown(departures.shift());
+        }
+      });
+  </script>
+</h3>
     
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm-4">
-    <table class="table table-bordered">
-      <thead>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>
+          Abfahrtszeiten:
+      </th>
+    </tr>
+  </thead>
+  <tbody class="marker">
+      <% @time_only_departures.each do |element| %>
         <tr>
-          <th>
-              Abfahrtszeiten:
-          </th>
+          <td><%= sprintf("%02d:%02d", element.hour, element.minute) %></td>
         </tr>
-      </thead>
-      <tbody class="marker">
-          <% @time_only_departures.each do |element| %>
-            <tr>
-              <td><%= sprintf("%02d:%02d", element.hour, element.minute) %></td>
-            </tr>
-          <% end %>
-      </tbody>
-    </table>
-  </div>
+      <% end %>
+  </tbody>
+</table>
 
-</div>
