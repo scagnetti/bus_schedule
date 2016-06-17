@@ -36,6 +36,8 @@ gem 'pdf-reader', '1.3.3'
 gem 'capybara'
 # Webbrowser for testing
 gem 'poltergeist'
+# MySql Support
+gem 'mysql2'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
