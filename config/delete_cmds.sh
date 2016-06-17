@@ -6,4 +6,4 @@ bin/rake db:rollback STEP=4
 bin/rails destroy scaffold Departure
 bin/rails destroy scaffold BusStop
 bin/rails destroy scaffold Direction
-bin/rails destroy scaffold Line
+bin/rails destroy scaffold BusLine
