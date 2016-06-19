@@ -1,33 +1,30 @@
-<div class="row">
-  <div class="col-lg-2 col-md-4">
-    <%= form_for(@direction) do |f| %>
-      <% if @direction.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(@direction.errors.count, "error") %> prohibited this direction from being saved:</h2>
+<%= form_for(@direction) do |f| %>
 
-          <ul>
-          <% @direction.errors.full_messages.each do |message| %>
-            <li><%= message %></li>
-          <% end %>
-          </ul>
-        </div>
+  <% if @direction.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@direction.errors.count, "error") %> prohibited this direction from being saved:</h2>
+
+      <ul>
+      <% @direction.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
       <% end %>
+      </ul>
+    </div>
+  <% end %>
 
-      <div class="form-group">
-        <%= f.label :display_name %>
-        <%= f.text_field :display_name, class: "form-control" %>
-      </div>
-      <div class="form-group">
-        <%= f.label :search_name %>
-        <%= f.text_field :search_name, class: "form-control" %>
-      </div>
-      <div class="form-group">
-        <%= f.label :line_id %>
-        <%= f.select(:line_id, options_from_collection_for_select(Line.all, "id", "name"), {}, {class: "form-control"}) %>
-      </div>
-      <div class="actions">
-        <%= f.submit nil, class: "btn btn-default" %>
-      </div>
-    <% end %>
+  <div class="form-group">
+    <%= f.label :display_name %>
+    <%= f.text_field :display_name, class: "form-control" %>
   </div>
-</div>
+  <div class="form-group">
+    <%= f.label :search_name %>
+    <%= f.text_field :search_name, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :bus_line_id %>
+    <%= f.select(:bus_line_id, options_from_collection_for_select(BusLine.all, "id", "name"), {}, {class: "form-control"}) %>
+  </div>
+  <div class="actions">
+    <%= f.submit nil, class: "btn btn-default" %>
+  </div>
+<% end %>
