@@ -45,4 +45,6 @@ gem 'mysql2', '~> 0.3.18'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 
+# Both gems are for dumping data in dev mode and using it in prod mode
 gem 'seed_dump'
+gem 'yaml_db'
