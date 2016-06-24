@@ -1,3 +1,7 @@
+<script>
+  $('#myModal').modal('hide')
+</script>
+
 <ol class="breadcrumb">
   <li><%= link_to 'Buslinien', bus_lines_path %></li>
   <li><%= link_to @direction.bus_line.name, bus_line_path(@direction.bus_line) %></li>
@@ -12,7 +16,8 @@
   <ul class="list-group">
     <% @direction.bus_stops.each do |bus_stop| %>
       <li class="list-group-item">
-        <%= link_to bus_stop.display_name, bus_stop %> / 
+        <!-- Show a loading indicator-->
+        <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false});"} %>
         <%= link_to 'Edit', edit_bus_stop_path(bus_stop) %> / 
         <%= link_to 'Destroy', bus_stop, method: :delete, data: { confirm: 'Are you sure?' } %>
       </li>
@@ -24,8 +29,31 @@
 
   <div class="list-group">
     <% @direction.bus_stops.each do |bus_stop| %>
-      <%= link_to bus_stop.display_name, bus_stop, class: "list-group-item" %>
+      <!-- Show a loading indicator-->
+      <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false});"} %>
     <% end %>
   </div>
 
 <% end %>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Abfrage läuft...</h4>
+      </div>
+
+      <div class="modal-body">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
