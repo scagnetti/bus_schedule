@@ -12,8 +12,8 @@
   <tbody>
     <% @bus_stops.each do |bus_stop| %>
       <tr>
-        <td><%= bus_stop.name %></td>
-        <td><%= bus_stop.direction %></td>
+        <td><%= bus_stop.display_name %></td>
+        <td><%= bus_stop.direction.display_name %></td>
         <td><%= link_to 'Show', bus_stop %></td>
         <td><%= link_to 'Edit', edit_bus_stop_path(bus_stop) %></td>
         <td><%= link_to 'Destroy', bus_stop, method: :delete, data: { confirm: 'Are you sure?' } %></td>
