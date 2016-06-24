@@ -5,7 +5,7 @@ class BusLinesController < ApplicationController
   # GET /lines
   # GET /lines.json
   def index
-    @bus_lines = BusLine.all.order(:name)
+    @bus_lines = BusLine.active.order(:name)
   end
 
   # GET /lines/1
