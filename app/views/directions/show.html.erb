@@ -1,5 +1,10 @@
 <script>
-  $('#myModal').modal('hide')
+  var hideModal = function(){
+    $('#myModal').modal('hide');
+  }
+  var startTimer = function(){
+    window.setTimeout(hideModal, 2000);
+  }
 </script>
 
 <ol class="breadcrumb">
@@ -17,7 +22,7 @@
     <% @direction.bus_stops.each do |bus_stop| %>
       <li class="list-group-item">
         <!-- Show a loading indicator-->
-        <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false});"} %>
+        <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false}); startTimer();"} %>
         <%= link_to 'Edit', edit_bus_stop_path(bus_stop) %> / 
         <%= link_to 'Destroy', bus_stop, method: :delete, data: { confirm: 'Are you sure?' } %>
       </li>
@@ -30,7 +35,7 @@
   <div class="list-group">
     <% @direction.bus_stops.each do |bus_stop| %>
       <!-- Show a loading indicator-->
-      <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false});"} %>
+      <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false}); startTimer();"} %>
     <% end %>
   </div>
 

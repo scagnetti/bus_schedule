@@ -11,7 +11,7 @@ class DirectionsController < ApplicationController
   # GET /directions/1
   # GET /directions/1.json
   def show
-    expires_now()
+    #expires_now()
   end
 
   # GET /directions/new
