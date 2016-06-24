@@ -1,0 +1,1866 @@
+
+---
+directions:
+  columns:
+  - id
+  - display_name
+  - search_name
+  - bus_line_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Pommernstraße
+    - Pommernstraße
+    - 1
+    - '2016-06-24 11:34:07.426152'
+    - '2016-06-24 11:34:07.426152'
+  - - 2
+    - Prüfening
+    - Regensburg Prüfening
+    - 1
+    - '2016-06-24 11:34:58.883861'
+    - '2016-06-24 11:34:58.883861'
+  - - 3
+    - Schwabenstraße
+    - Regensburg Schwabenstraße
+    - 2
+    - '2016-06-24 12:15:30.327367'
+    - '2016-06-24 12:15:30.327367'
+  - - 4
+    - Graß
+    - Graß
+    - 2
+    - '2016-06-24 12:16:12.646704'
+    - '2016-06-24 12:16:12.646704'
+  - - 5
+    - Schwabenstraße
+    - Regensburg Schwabenstraße
+    - 3
+    - '2016-06-24 12:52:00.924059'
+    - '2016-06-24 12:52:00.924059'
+  - - 6
+    - Karl-Stieler-Straße
+    - Regensburg Karl-Stieler-Straße
+    - 3
+    - '2016-06-24 13:16:43.492155'
+    - '2016-06-24 13:16:43.492155'
+  - - 7
+    - Wutzlhofen
+    - Wutzlhofen
+    - 4
+    - '2016-06-24 13:25:29.402443'
+    - '2016-06-24 13:25:29.402443'
+  - - 8
+    - Graß
+    - Graß
+    - 4
+    - '2016-06-24 13:26:19.990112'
+    - '2016-06-24 13:26:19.990112'
+  - - 9
+    - Danziger Freiheit
+    - Regensburg Danziger Freiheit
+    - 5
+    - '2016-06-24 13:51:33.385717'
+    - '2016-06-24 13:51:33.385717'
+  - - 10
+    - Universität
+    - Regensburg Universität
+    - 5
+    - '2016-06-24 13:52:53.297157'
+    - '2016-06-24 13:52:53.297157'
+
+---
+bus_stops:
+  columns:
+  - id
+  - display_name
+  - search_name
+  - direction_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Prüfening
+    - Regensburg, Prüfening
+    - 1
+    - '2016-06-24 11:36:30.119738'
+    - '2016-06-24 11:36:30.119738'
+  - - 2
+    - Rennweg
+    - Regensburg, Rennweg
+    - 1
+    - '2016-06-24 11:36:30.220827'
+    - '2016-06-24 11:36:30.220827'
+  - - 3
+    - Rennplatz
+    - Regensburg, Rennplatz
+    - 1
+    - '2016-06-24 11:36:30.338654'
+    - '2016-06-24 11:36:30.338654'
+  - - 4
+    - Lilienthalstraße
+    - Regensburg, Lilienthalstraße
+    - 1
+    - '2016-06-24 11:36:30.441463'
+    - '2016-06-24 11:36:30.441463'
+  - - 5
+    - Margaretenau/KH Barm. Brüder
+    - Regensburg, Margaretenau/KH Barm. Brüder
+    - 1
+    - '2016-06-24 11:36:30.559582'
+    - '2016-06-24 11:36:30.559582'
+  - - 6
+    - Lessingstraße
+    - Regensburg, Lessingstraße
+    - 1
+    - '2016-06-24 11:36:30.669106'
+    - '2016-06-24 11:36:30.669106'
+  - - 7
+    - Goethestraße
+    - Regensburg, Goethestraße
+    - 1
+    - '2016-06-24 11:36:30.770313'
+    - '2016-06-24 11:36:30.770313'
+  - - 8
+    - Taxisstraße
+    - Regensburg, Taxisstraße
+    - 1
+    - '2016-06-24 11:36:30.871567'
+    - '2016-06-24 11:36:30.871567'
+  - - 9
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 1
+    - '2016-06-24 11:36:30.973006'
+    - '2016-06-24 11:36:30.973006'
+  - - 10
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 1
+    - '2016-06-24 11:36:31.092134'
+    - '2016-06-24 11:36:31.092134'
+  - - 11
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 1
+    - '2016-06-24 11:36:31.201756'
+    - '2016-06-24 11:36:31.201756'
+  - - 12
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 1
+    - '2016-06-24 11:36:31.286442'
+    - '2016-06-24 11:36:31.286442'
+  - - 13
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 1
+    - '2016-06-24 11:36:31.396226'
+    - '2016-06-24 11:36:31.396226'
+  - - 14
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 1
+    - '2016-06-24 11:36:31.522732'
+    - '2016-06-24 11:36:31.522732'
+  - - 15
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 1
+    - '2016-06-24 11:36:31.649360'
+    - '2016-06-24 11:36:31.649360'
+  - - 16
+    - Weißenburgstraße
+    - Regensburg, Weißenburgstraße
+    - 1
+    - '2016-06-24 11:36:31.768011'
+    - '2016-06-24 11:36:31.768011'
+  - - 17
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 1
+    - '2016-06-24 11:36:31.895053'
+    - '2016-06-24 11:36:31.895053'
+  - - 18
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 1
+    - '2016-06-24 11:36:32.005068'
+    - '2016-06-24 11:36:32.005068'
+  - - 19
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 1
+    - '2016-06-24 11:36:32.098166'
+    - '2016-06-24 11:36:32.098166'
+  - - 20
+    - Sudetendeutsche Straße
+    - Regensburg, Sudetendeutsche Straße
+    - 1
+    - '2016-06-24 11:36:32.207607'
+    - '2016-06-24 11:36:32.207607'
+  - - 21
+    - Sandgasse
+    - Regensburg, Sandgasse
+    - 1
+    - '2016-06-24 11:36:32.327333'
+    - '2016-06-24 11:36:32.327333'
+  - - 22
+    - Memeler Straße
+    - Regensburg, Memeler Straße
+    - 1
+    - '2016-06-24 11:36:32.445163'
+    - '2016-06-24 11:36:32.445163'
+  - - 23
+    - Dolomitenstraße
+    - Regensburg, Dolomitenstraße
+    - 1
+    - '2016-06-24 11:36:32.546460'
+    - '2016-06-24 11:36:32.546460'
+  - - 24
+    - Argonnenstraße
+    - Regensburg, Argonnenstraße
+    - 1
+    - '2016-06-24 11:36:32.647805'
+    - '2016-06-24 11:36:32.647805'
+  - - 26
+    - Pommernstraße
+    - Regensburg, Pommernstraße
+    - 2
+    - '2016-06-24 11:40:59.479052'
+    - '2016-06-24 11:40:59.479052'
+  - - 27
+    - Berliner Straße
+    - Regensburg, Berliner Straße
+    - 2
+    - '2016-06-24 11:40:59.596395'
+    - '2016-06-24 11:40:59.596395'
+  - - 28
+    - Mecklenburger Straße
+    - Regensburg, Mecklenburger Straße
+    - 2
+    - '2016-06-24 11:40:59.697438'
+    - '2016-06-24 11:40:59.697438'
+  - - 29
+    - Ostpreußenstraße
+    - Regensburg, Ostpreußenstraße
+    - 2
+    - '2016-06-24 11:40:59.818665'
+    - '2016-06-24 11:40:59.818665'
+  - - 30
+    - Aussiger Straße
+    - Regensburg, Aussiger Straße
+    - 2
+    - '2016-06-24 11:40:59.944857'
+    - '2016-06-24 11:40:59.944857'
+  - - 31
+    - Memeler Straße
+    - Regensburg, Memeler Straße
+    - 2
+    - '2016-06-24 11:41:00.046232'
+    - '2016-06-24 11:41:00.046232'
+  - - 32
+    - Sandgasse
+    - Regensburg, Sandgasse
+    - 2
+    - '2016-06-24 11:41:00.147050'
+    - '2016-06-24 11:41:00.147050'
+  - - 33
+    - Sudetendeutsche Straße
+    - Regensburg, Sudetendeutsche Straße
+    - 2
+    - '2016-06-24 11:41:00.248841'
+    - '2016-06-24 11:41:00.248841'
+  - - 34
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 2
+    - '2016-06-24 11:41:00.350188'
+    - '2016-06-24 11:41:00.350188'
+  - - 35
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 2
+    - '2016-06-24 11:41:00.469031'
+    - '2016-06-24 11:41:00.469031'
+  - - 36
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 2
+    - '2016-06-24 11:41:00.587142'
+    - '2016-06-24 11:41:00.587142'
+  - - 37
+    - Weißenburgstraße
+    - Regensburg, Weißenburgstraße
+    - 2
+    - '2016-06-24 11:41:00.696681'
+    - '2016-06-24 11:41:00.696681'
+  - - 38
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 2
+    - '2016-06-24 11:41:00.797906'
+    - '2016-06-24 11:41:00.797906'
+  - - 39
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 2
+    - '2016-06-24 11:41:00.907301'
+    - '2016-06-24 11:41:00.907301'
+  - - 40
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 2
+    - '2016-06-24 11:41:01.008965'
+    - '2016-06-24 11:41:01.008965'
+  - - 41
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 2
+    - '2016-06-24 11:41:01.127674'
+    - '2016-06-24 11:41:01.127674'
+  - - 42
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 2
+    - '2016-06-24 11:41:01.245674'
+    - '2016-06-24 11:41:01.245674'
+  - - 43
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 2
+    - '2016-06-24 11:41:01.364016'
+    - '2016-06-24 11:41:01.364016'
+  - - 44
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 2
+    - '2016-06-24 11:41:01.465401'
+    - '2016-06-24 11:41:01.465401'
+  - - 45
+    - Taxisstraße
+    - Regensburg, Taxisstraße
+    - 2
+    - '2016-06-24 11:41:01.566403'
+    - '2016-06-24 11:41:01.566403'
+  - - 46
+    - Goethestraße
+    - Regensburg, Goethestraße
+    - 2
+    - '2016-06-24 11:41:01.667991'
+    - '2016-06-24 11:41:01.667991'
+  - - 47
+    - Lessingstraße
+    - Regensburg, Lessingstraße
+    - 2
+    - '2016-06-24 11:41:01.787125'
+    - '2016-06-24 11:41:01.787125'
+  - - 48
+    - Margaretenau/KH Barm. Brüder
+    - Regensburg, Margaretenau/KH Barm. Brüder
+    - 2
+    - '2016-06-24 11:41:01.913326'
+    - '2016-06-24 11:41:01.913326'
+  - - 49
+    - Michael-Burgau-Straße
+    - Regensburg, Michael-Burgau-Straße
+    - 2
+    - '2016-06-24 11:41:02.022980'
+    - '2016-06-24 11:41:02.022980'
+  - - 50
+    - Lilienthalstraße
+    - Regensburg, Lilienthalstraße
+    - 2
+    - '2016-06-24 11:41:02.124045'
+    - '2016-06-24 11:41:02.124045'
+  - - 51
+    - Rennplatz
+    - Regensburg, Rennplatz
+    - 2
+    - '2016-06-24 11:41:02.242361'
+    - '2016-06-24 11:41:02.242361'
+  - - 52
+    - Killermannstraße
+    - Regensburg, Killermannstraße
+    - 2
+    - '2016-06-24 11:41:02.343646'
+    - '2016-06-24 11:41:02.343646'
+  - - 53
+    - Deiningerstraße
+    - Regensburg, Deiningerstraße
+    - 2
+    - '2016-06-24 11:41:02.471195'
+    - '2016-06-24 11:41:02.471195'
+  - - 54
+    - Annahofstraße
+    - Regensburg, Annahofstraße
+    - 2
+    - '2016-06-24 11:41:02.588632'
+    - '2016-06-24 11:41:02.588632'
+  - - 55
+    - An den Klostergründen
+    - Regensburg, An den Klostergründen
+    - 2
+    - '2016-06-24 11:41:02.706738'
+    - '2016-06-24 11:41:02.706738'
+  - - 56
+    - Graß
+    - Regensburg, Graß
+    - 3
+    - '2016-06-24 12:17:26.893626'
+    - '2016-06-24 12:17:26.893626'
+  - - 57
+    - Brunnstraße
+    - Regensburg, Brunnstraße
+    - 3
+    - '2016-06-24 12:17:27.012412'
+    - '2016-06-24 12:17:27.012412'
+  - - 58
+    - Rgbg.Fernsehsender Ziegetsdorf
+    - Regensburg, Rgbg.Fernsehsender Ziegetsdorf
+    - 3
+    - '2016-06-24 12:17:27.105329'
+    - '2016-06-24 12:17:27.105329'
+  - - 59
+    - Graßer Weg
+    - Regensburg, Graßer Weg
+    - 3
+    - '2016-06-24 12:17:27.198175'
+    - '2016-06-24 12:17:27.198175'
+  - - 60
+    - Karl-Stieler-Straße
+    - Regensburg, Karl-Stieler-Straße
+    - 3
+    - '2016-06-24 12:17:27.283871'
+    - '2016-06-24 12:17:27.283871'
+  - - 61
+    - Graßer Weg
+    - Regensburg, Graßer Weg
+    - 3
+    - '2016-06-24 12:17:27.410457'
+    - '2016-06-24 12:17:27.410457'
+  - - 62
+    - Geibelplatz
+    - Regensburg, Geibelplatz
+    - 3
+    - '2016-06-24 12:17:27.536995'
+    - '2016-06-24 12:17:27.536995'
+  - - 63
+    - Wolfgangschule Süd
+    - Regensburg, Wolfgangschule Süd
+    - 3
+    - '2016-06-24 12:17:27.663535'
+    - '2016-06-24 12:17:27.663535'
+  - - 64
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 3
+    - '2016-06-24 12:17:27.756405'
+    - '2016-06-24 12:17:27.756405'
+  - - 65
+    - Augsburger Straße
+    - Regensburg, Augsburger Straße
+    - 3
+    - '2016-06-24 12:17:27.849488'
+    - '2016-06-24 12:17:27.849488'
+  - - 66
+    - Theresienkirche
+    - Regensburg, Theresienkirche
+    - 3
+    - '2016-06-24 12:17:27.960083'
+    - '2016-06-24 12:17:27.960083'
+  - - 67
+    - Justizgebäude
+    - Regensburg, Justizgebäude
+    - 3
+    - '2016-06-24 12:17:28.069704'
+    - '2016-06-24 12:17:28.069704'
+  - - 68
+    - Bismarckplatz
+    - Regensburg, Bismarckplatz
+    - 3
+    - '2016-06-24 12:17:28.179269'
+    - '2016-06-24 12:17:28.179269'
+  - - 69
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 3
+    - '2016-06-24 12:17:28.288638'
+    - '2016-06-24 12:17:28.288638'
+  - - 70
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 3
+    - '2016-06-24 12:17:28.398702'
+    - '2016-06-24 12:17:28.398702'
+  - - 71
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 3
+    - '2016-06-24 12:17:28.533376'
+    - '2016-06-24 12:17:28.533376'
+  - - 72
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 3
+    - '2016-06-24 12:17:28.635768'
+    - '2016-06-24 12:17:28.635768'
+  - - 73
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 3
+    - '2016-06-24 12:17:28.728533'
+    - '2016-06-24 12:17:28.728533'
+  - - 74
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 3
+    - '2016-06-24 12:17:28.846692'
+    - '2016-06-24 12:17:28.846692'
+  - - 75
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 3
+    - '2016-06-24 12:17:28.973344'
+    - '2016-06-24 12:17:28.973344'
+  - - 76
+    - Herm.-Geib-Straße
+    - Regensburg, Herm.-Geib-Straße
+    - 3
+    - '2016-06-24 12:17:29.058062'
+    - '2016-06-24 12:17:29.058062'
+  - - 77
+    - Safferlingstraße
+    - Regensburg, Safferlingstraße
+    - 3
+    - '2016-06-24 12:17:29.150956'
+    - '2016-06-24 12:17:29.150956'
+  - - 78
+    - Krankenhaus St. Josef
+    - Regensburg, Krankenhaus St. Josef
+    - 3
+    - '2016-06-24 12:17:29.261663'
+    - '2016-06-24 12:17:29.261663'
+  - - 79
+    - Zeißstraße
+    - Regensburg, Zeißstraße
+    - 3
+    - '2016-06-24 12:17:29.371230'
+    - '2016-06-24 12:17:29.371230'
+  - - 80
+    - Bajuwarenstraße
+    - Regensburg, Bajuwarenstraße
+    - 3
+    - '2016-06-24 12:17:29.480720'
+    - '2016-06-24 12:17:29.480720'
+  - - 81
+    - Benzstraße
+    - Regensburg, Benzstraße
+    - 3
+    - '2016-06-24 12:17:29.573687'
+    - '2016-06-24 12:17:29.573687'
+  - - 82
+    - Schöneberger Straße
+    - Regensburg, Schöneberger Straße
+    - 3
+    - '2016-06-24 12:17:29.683464'
+    - '2016-06-24 12:17:29.683464'
+  - - 83
+    - Schwabenstraße
+    - Regensburg, Schwabenstraße
+    - 4
+    - '2016-06-24 12:37:16.850326'
+    - '2016-06-24 12:37:16.850326'
+  - - 84
+    - Schöneberger Straße
+    - Regensburg, Schöneberger Straße
+    - 4
+    - '2016-06-24 12:37:16.979573'
+    - '2016-06-24 12:37:16.979573'
+  - - 85
+    - Benzstraße
+    - Regensburg, Benzstraße
+    - 4
+    - '2016-06-24 12:37:17.088989'
+    - '2016-06-24 12:37:17.088989'
+  - - 86
+    - Bajuwarenstraße
+    - Regensburg, Bajuwarenstraße
+    - 4
+    - '2016-06-24 12:37:17.198636'
+    - '2016-06-24 12:37:17.198636'
+  - - 87
+    - Zeißstraße
+    - Regensburg, Zeißstraße
+    - 4
+    - '2016-06-24 12:37:17.291405'
+    - '2016-06-24 12:37:17.291405'
+  - - 88
+    - Krankenhaus St. Josef
+    - Regensburg, Krankenhaus St. Josef
+    - 4
+    - '2016-06-24 12:37:17.384314'
+    - '2016-06-24 12:37:17.384314'
+  - - 89
+    - Safferlingstraße
+    - Regensburg, Safferlingstraße
+    - 4
+    - '2016-06-24 12:37:17.495246'
+    - '2016-06-24 12:37:17.495246'
+  - - 90
+    - Herm.-Geib-Straße
+    - Regensburg, Herm.-Geib-Straße
+    - 4
+    - '2016-06-24 12:37:17.621213'
+    - '2016-06-24 12:37:17.621213'
+  - - 91
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 4
+    - '2016-06-24 12:37:17.748617'
+    - '2016-06-24 12:37:17.748617'
+  - - 92
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 4
+    - '2016-06-24 12:37:17.874710'
+    - '2016-06-24 12:37:17.874710'
+  - - 93
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 4
+    - '2016-06-24 12:37:18.009795'
+    - '2016-06-24 12:37:18.009795'
+  - - 94
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 4
+    - '2016-06-24 12:37:18.129167'
+    - '2016-06-24 12:37:18.129167'
+  - - 95
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 4
+    - '2016-06-24 12:37:18.263933'
+    - '2016-06-24 12:37:18.263933'
+  - - 96
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 4
+    - '2016-06-24 12:37:18.398643'
+    - '2016-06-24 12:37:18.398643'
+  - - 97
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 4
+    - '2016-06-24 12:37:18.525033'
+    - '2016-06-24 12:37:18.525033'
+  - - 98
+    - Bismarckplatz
+    - Regensburg, Bismarckplatz
+    - 4
+    - '2016-06-24 12:37:18.634895'
+    - '2016-06-24 12:37:18.634895'
+  - - 99
+    - Justizgebäude
+    - Regensburg, Justizgebäude
+    - 4
+    - '2016-06-24 12:37:18.736238'
+    - '2016-06-24 12:37:18.736238'
+  - - 100
+    - Gutenbergstraße
+    - Regensburg, Gutenbergstraße
+    - 4
+    - '2016-06-24 12:37:18.855422'
+    - '2016-06-24 12:37:18.855422'
+  - - 101
+    - Wolfgangskirche
+    - Regensburg, Wolfgangskirche
+    - 4
+    - '2016-06-24 12:37:18.973451'
+    - '2016-06-24 12:37:18.973451'
+  - - 102
+    - Nibelungenstraße
+    - Regensburg, Nibelungenstraße
+    - 4
+    - '2016-06-24 12:37:19.091395'
+    - '2016-06-24 12:37:19.091395'
+  - - 103
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 4
+    - '2016-06-24 12:37:19.184415'
+    - '2016-06-24 12:37:19.184415'
+  - - 104
+    - Wolfgangschule Süd
+    - Regensburg, Wolfgangschule Süd
+    - 4
+    - '2016-06-24 12:37:19.285627'
+    - '2016-06-24 12:37:19.285627'
+  - - 105
+    - Geibelplatz
+    - Regensburg, Geibelplatz
+    - 4
+    - '2016-06-24 12:37:19.386557'
+    - '2016-06-24 12:37:19.386557'
+  - - 106
+    - Graßer Weg
+    - Regensburg, Graßer Weg
+    - 4
+    - '2016-06-24 12:37:19.506160'
+    - '2016-06-24 12:37:19.506160'
+  - - 107
+    - Karl-Stieler-Straße
+    - Regensburg, Karl-Stieler-Straße
+    - 4
+    - '2016-06-24 12:37:19.623755'
+    - '2016-06-24 12:37:19.623755'
+  - - 108
+    - Fernsehsender Ziegetsdorf
+    - Regensburg, Fernsehsender Ziegetsdorf
+    - 4
+    - '2016-06-24 12:37:19.733414'
+    - '2016-06-24 12:37:19.733414'
+  - - 109
+    - Graß Brunnstraße
+    - Regensburg, Graß Brunnstraße
+    - 4
+    - '2016-06-24 12:37:19.834440'
+    - '2016-06-24 12:37:19.834440'
+  - - 110
+    - Karl-Stieler-Straße
+    - Regensburg, Karl-Stieler-Straße
+    - 5
+    - '2016-06-24 12:52:11.125244'
+    - '2016-06-24 12:52:11.125244'
+  - - 111
+    - Vitusstraße
+    - Regensburg, Vitusstraße
+    - 5
+    - '2016-06-24 12:52:11.287764'
+    - '2016-06-24 12:52:11.287764'
+  - - 112
+    - An der Kreuzbreite
+    - Regensburg, An der Kreuzbreite
+    - 5
+    - '2016-06-24 12:52:11.531647'
+    - '2016-06-24 12:52:11.531647'
+  - - 113
+    - Universität
+    - Regensburg, Universität
+    - 5
+    - '2016-06-24 12:52:11.658406'
+    - '2016-06-24 12:52:11.658406'
+  - - 114
+    - Wolfgangschule Nord
+    - Regensburg, Wolfgangschule Nord
+    - 5
+    - '2016-06-24 12:52:11.885025'
+    - '2016-06-24 12:52:11.885025'
+  - - 115
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 5
+    - '2016-06-24 12:52:12.004272'
+    - '2016-06-24 12:52:12.004272'
+  - - 116
+    - Augsburger Straße
+    - Regensburg, Augsburger Straße
+    - 5
+    - '2016-06-24 12:52:12.122140'
+    - '2016-06-24 12:52:12.122140'
+  - - 117
+    - Theresienkirche
+    - Regensburg, Theresienkirche
+    - 5
+    - '2016-06-24 12:52:12.239933'
+    - '2016-06-24 12:52:12.239933'
+  - - 118
+    - Justizgebäude
+    - Regensburg, Justizgebäude
+    - 5
+    - '2016-06-24 12:52:12.332641'
+    - '2016-06-24 12:52:12.332641'
+  - - 119
+    - Bismarckplatz
+    - Regensburg, Bismarckplatz
+    - 5
+    - '2016-06-24 12:52:12.467937'
+    - '2016-06-24 12:52:12.467937'
+  - - 120
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 5
+    - '2016-06-24 12:52:12.610873'
+    - '2016-06-24 12:52:12.610873'
+  - - 121
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 5
+    - '2016-06-24 12:52:12.738540'
+    - '2016-06-24 12:52:12.738540'
+  - - 122
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 5
+    - '2016-06-24 12:52:12.856476'
+    - '2016-06-24 12:52:12.856476'
+  - - 123
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 5
+    - '2016-06-24 12:52:12.966262'
+    - '2016-06-24 12:52:12.966262'
+  - - 124
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 5
+    - '2016-06-24 12:52:13.075862'
+    - '2016-06-24 12:52:13.075862'
+  - - 125
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 5
+    - '2016-06-24 12:52:13.193878'
+    - '2016-06-24 12:52:13.193878'
+  - - 126
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 5
+    - '2016-06-24 12:52:13.324682'
+    - '2016-06-24 12:52:13.324682'
+  - - 127
+    - Herm.-Geib-Straße
+    - Regensburg, Herm.-Geib-Straße
+    - 5
+    - '2016-06-24 12:52:13.474103'
+    - '2016-06-24 12:52:13.474103'
+  - - 128
+    - Safferlingstraße
+    - Regensburg, Safferlingstraße
+    - 5
+    - '2016-06-24 12:52:13.592237'
+    - '2016-06-24 12:52:13.592237'
+  - - 129
+    - Krankenhaus St. Josef
+    - Regensburg, Krankenhaus St. Josef
+    - 5
+    - '2016-06-24 12:52:13.727267'
+    - '2016-06-24 12:52:13.727267'
+  - - 130
+    - Zeißstraße
+    - Regensburg, Zeißstraße
+    - 5
+    - '2016-06-24 12:52:13.862200'
+    - '2016-06-24 12:52:13.862200'
+  - - 131
+    - Bajuwarenstraße
+    - Regensburg, Bajuwarenstraße
+    - 5
+    - '2016-06-24 12:52:13.996753'
+    - '2016-06-24 12:52:13.996753'
+  - - 132
+    - Benzstraße
+    - Regensburg, Benzstraße
+    - 5
+    - '2016-06-24 12:52:14.115831'
+    - '2016-06-24 12:52:14.115831'
+  - - 133
+    - Schöneberger Straße
+    - Regensburg, Schöneberger Straße
+    - 5
+    - '2016-06-24 12:52:14.225711'
+    - '2016-06-24 12:52:14.225711'
+  - - 134
+    - Schwabenstraße
+    - Regensburg, Schwabenstraße
+    - 6
+    - '2016-06-24 13:17:02.980725'
+    - '2016-06-24 13:17:02.980725'
+  - - 135
+    - Schöneberger Straße
+    - Regensburg, Schöneberger Straße
+    - 6
+    - '2016-06-24 13:17:03.091111'
+    - '2016-06-24 13:17:03.091111'
+  - - 136
+    - Benzstraße
+    - Regensburg, Benzstraße
+    - 6
+    - '2016-06-24 13:17:03.192279'
+    - '2016-06-24 13:17:03.192279'
+  - - 137
+    - Bajuwarenstraße
+    - Regensburg, Bajuwarenstraße
+    - 6
+    - '2016-06-24 13:17:03.285909'
+    - '2016-06-24 13:17:03.285909'
+  - - 138
+    - Zeißstraße
+    - Regensburg, Zeißstraße
+    - 6
+    - '2016-06-24 13:17:03.379078'
+    - '2016-06-24 13:17:03.379078'
+  - - 139
+    - Krankenhaus St. Josef
+    - Regensburg, Krankenhaus St. Josef
+    - 6
+    - '2016-06-24 13:17:03.505619'
+    - '2016-06-24 13:17:03.505619'
+  - - 140
+    - Safferlingstraße
+    - Regensburg, Safferlingstraße
+    - 6
+    - '2016-06-24 13:17:03.632012'
+    - '2016-06-24 13:17:03.632012'
+  - - 141
+    - Herm.-Geib-Straße
+    - Regensburg, Herm.-Geib-Straße
+    - 6
+    - '2016-06-24 13:17:03.758560'
+    - '2016-06-24 13:17:03.758560'
+  - - 142
+    - Stobäusplatz
+    - Regensburg, Stobäusplatz
+    - 6
+    - '2016-06-24 13:17:03.869623'
+    - '2016-06-24 13:17:03.869623'
+  - - 143
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 6
+    - '2016-06-24 13:17:03.953811'
+    - '2016-06-24 13:17:03.953811'
+  - - 144
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 6
+    - '2016-06-24 13:17:04.055709'
+    - '2016-06-24 13:17:04.055709'
+  - - 145
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 6
+    - '2016-06-24 13:17:04.165358'
+    - '2016-06-24 13:17:04.165358'
+  - - 146
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 6
+    - '2016-06-24 13:17:04.274981'
+    - '2016-06-24 13:17:04.274981'
+  - - 147
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 6
+    - '2016-06-24 13:17:04.384756'
+    - '2016-06-24 13:17:04.384756'
+  - - 148
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 6
+    - '2016-06-24 13:17:04.478791'
+    - '2016-06-24 13:17:04.478791'
+  - - 149
+    - Bismarckplatz
+    - Regensburg, Bismarckplatz
+    - 6
+    - '2016-06-24 13:17:04.588551'
+    - '2016-06-24 13:17:04.588551'
+  - - 150
+    - Justizgebäude
+    - Regensburg, Justizgebäude
+    - 6
+    - '2016-06-24 13:17:04.741724'
+    - '2016-06-24 13:17:04.741724'
+  - - 151
+    - Gutenbergstraße
+    - Regensburg, Gutenbergstraße
+    - 6
+    - '2016-06-24 13:17:04.874500'
+    - '2016-06-24 13:17:04.874500'
+  - - 152
+    - Wolfgangskirche
+    - Regensburg, Wolfgangskirche
+    - 6
+    - '2016-06-24 13:17:04.991850'
+    - '2016-06-24 13:17:04.991850'
+  - - 153
+    - Nibelungenstraße
+    - Regensburg, Nibelungenstraße
+    - 6
+    - '2016-06-24 13:17:05.102098'
+    - '2016-06-24 13:17:05.102098'
+  - - 154
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 6
+    - '2016-06-24 13:17:05.196033'
+    - '2016-06-24 13:17:05.196033'
+  - - 155
+    - Wolfgangschule Nord
+    - Regensburg, Wolfgangschule Nord
+    - 6
+    - '2016-06-24 13:17:05.314307'
+    - '2016-06-24 13:17:05.314307'
+  - - 156
+    - Universität
+    - Regensburg, Universität
+    - 6
+    - '2016-06-24 13:17:05.457274'
+    - '2016-06-24 13:17:05.457274'
+  - - 157
+    - An der Kreuzbreite
+    - Regensburg, An der Kreuzbreite
+    - 6
+    - '2016-06-24 13:17:05.592028'
+    - '2016-06-24 13:17:05.592028'
+  - - 158
+    - Vitusstraße
+    - Regensburg, Vitusstraße
+    - 6
+    - '2016-06-24 13:17:05.718505'
+    - '2016-06-24 13:17:05.718505'
+  - - 159
+    - Graß
+    - Regensburg, Graß
+    - 7
+    - '2016-06-24 13:30:49.179600'
+    - '2016-06-24 13:30:49.179600'
+  - - 160
+    - Leoprechting Am Bach
+    - Regensburg, Leoprechting Am Bach
+    - 7
+    - '2016-06-24 13:30:49.295623'
+    - '2016-06-24 13:30:49.295623'
+  - - 161
+    - Leoprechting
+    - Regensburg, Leoprechting
+    - 7
+    - '2016-06-24 13:30:49.413498'
+    - '2016-06-24 13:30:49.413498'
+  - - 162
+    - Oberisling Lieperkingstraße
+    - Regensburg, Oberisling Lieperkingstraße
+    - 7
+    - '2016-06-24 13:30:49.515171'
+    - '2016-06-24 13:30:49.515171'
+  - - 163
+    - Oberisling
+    - Regensburg, Oberisling
+    - 7
+    - '2016-06-24 13:30:49.624618'
+    - '2016-06-24 13:30:49.624618'
+  - - 164
+    - Rauberstraße
+    - Regensburg, Rauberstraße
+    - 7
+    - '2016-06-24 13:30:49.734480'
+    - '2016-06-24 13:30:49.734480'
+  - - 165
+    - Regensburg Continental Arena
+    - Regensburg, Regensburg Continental Arena
+    - 7
+    - '2016-06-24 13:30:49.843932'
+    - '2016-06-24 13:30:49.843932'
+  - - 166
+    - Johann-Hösl-Straße
+    - Regensburg, Johann-Hösl-Straße
+    - 7
+    - '2016-06-24 13:30:49.954658'
+    - '2016-06-24 13:30:49.954658'
+  - - 167
+    - Schule Napoleonstein
+    - Regensburg, Schule Napoleonstein
+    - 7
+    - '2016-06-24 13:30:50.064407'
+    - '2016-06-24 13:30:50.064407'
+  - - 168
+    - Humboldtstraße
+    - Regensburg, Humboldtstraße
+    - 7
+    - '2016-06-24 13:30:50.174052'
+    - '2016-06-24 13:30:50.174052'
+  - - 169
+    - Humboldtstraße Bürgerhaus
+    - Regensburg, Humboldtstraße Bürgerhaus
+    - 7
+    - '2016-06-24 13:30:50.283590'
+    - '2016-06-24 13:30:50.283590'
+  - - 170
+    - Humboldtstraße
+    - Regensburg, Humboldtstraße
+    - 7
+    - '2016-06-24 13:30:50.376457'
+    - '2016-06-24 13:30:50.376457'
+  - - 171
+    - Tulpenweg
+    - Regensburg, Tulpenweg
+    - 7
+    - '2016-06-24 13:30:50.486348'
+    - '2016-06-24 13:30:50.486348'
+  - - 172
+    - An der Iselrinne
+    - Regensburg, An der Iselrinne
+    - 7
+    - '2016-06-24 13:30:50.588826'
+    - '2016-06-24 13:30:50.588826'
+  - - 173
+    - Brahmsstraße
+    - Regensburg, Brahmsstraße
+    - 7
+    - '2016-06-24 13:30:50.707420'
+    - '2016-06-24 13:30:50.707420'
+  - - 174
+    - Alfons-Auer-Straße
+    - Regensburg, Alfons-Auer-Straße
+    - 7
+    - '2016-06-24 13:30:50.833452'
+    - '2016-06-24 13:30:50.833452'
+  - - 175
+    - Antoniuskirche
+    - Regensburg, Antoniuskirche
+    - 7
+    - '2016-06-24 13:30:50.926672'
+    - '2016-06-24 13:30:50.926672'
+  - - 176
+    - Unterer kath. Friedhof
+    - Regensburg, Unterer kath. Friedhof
+    - 7
+    - '2016-06-24 13:30:51.019841'
+    - '2016-06-24 13:30:51.019841'
+  - - 177
+    - HBF Süd/Arcaden
+    - Regensburg, HBF Süd/Arcaden
+    - 7
+    - '2016-06-24 13:30:51.137594'
+    - '2016-06-24 13:30:51.137594'
+  - - 178
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 7
+    - '2016-06-24 13:30:51.248377'
+    - '2016-06-24 13:30:51.248377'
+  - - 179
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 7
+    - '2016-06-24 13:30:51.357972'
+    - '2016-06-24 13:30:51.357972'
+  - - 180
+    - Eiserne Brücke
+    - Regensburg, Eiserne Brücke
+    - 7
+    - '2016-06-24 13:30:51.467674'
+    - '2016-06-24 13:30:51.467674'
+  - - 181
+    - Wöhrdstraße
+    - Regensburg, Wöhrdstraße
+    - 7
+    - '2016-06-24 13:30:51.560593'
+    - '2016-06-24 13:30:51.560593'
+  - - 182
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 7
+    - '2016-06-24 13:30:51.687369'
+    - '2016-06-24 13:30:51.687369'
+  - - 183
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 7
+    - '2016-06-24 13:30:51.822297'
+    - '2016-06-24 13:30:51.822297'
+  - - 184
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 7
+    - '2016-06-24 13:30:51.974801'
+    - '2016-06-24 13:30:51.974801'
+  - - 185
+    - Reinhausen Kirche
+    - Regensburg, Reinhausen Kirche
+    - 7
+    - '2016-06-24 13:30:52.092802'
+    - '2016-06-24 13:30:52.092802'
+  - - 186
+    - Reinhausen Brücke
+    - Regensburg, Reinhausen Brücke
+    - 7
+    - '2016-06-24 13:30:52.194432'
+    - '2016-06-24 13:30:52.194432'
+  - - 187
+    - Schule St. Nikola
+    - Regensburg, Schule St. Nikola
+    - 7
+    - '2016-06-24 13:30:52.312383'
+    - '2016-06-24 13:30:52.312383'
+  - - 188
+    - Fluderstraße
+    - Regensburg, Fluderstraße
+    - 7
+    - '2016-06-24 13:30:52.430485'
+    - '2016-06-24 13:30:52.430485'
+  - - 189
+    - Amberger Straße
+    - Regensburg, Amberger Straße
+    - 7
+    - '2016-06-24 13:30:52.541209'
+    - '2016-06-24 13:30:52.541209'
+  - - 190
+    - Spessartstraße
+    - Regensburg, Spessartstraße
+    - 7
+    - '2016-06-24 13:30:52.659329'
+    - '2016-06-24 13:30:52.659329'
+  - - 191
+    - Siebenbürgener Straße
+    - Regensburg, Siebenbürgener Straße
+    - 7
+    - '2016-06-24 13:30:52.769042'
+    - '2016-06-24 13:30:52.769042'
+  - - 192
+    - Im Reichen Winkel
+    - Regensburg, Im Reichen Winkel
+    - 7
+    - '2016-06-24 13:30:52.870429'
+    - '2016-06-24 13:30:52.870429'
+  - - 193
+    - Sallerner Berg
+    - Regensburg, Sallerner Berg
+    - 7
+    - '2016-06-24 13:30:52.988470'
+    - '2016-06-24 13:30:52.988470'
+  - - 194
+    - Gallingkofen
+    - Regensburg, Gallingkofen
+    - 7
+    - '2016-06-24 13:30:53.105938'
+    - '2016-06-24 13:30:53.105938'
+  - - 195
+    - Kötztinger Straße
+    - Regensburg, Kötztinger Straße
+    - 7
+    - '2016-06-24 13:30:53.208974'
+    - '2016-06-24 13:30:53.208974'
+  - - 196
+    - Schlesierstraße
+    - Regensburg, Schlesierstraße
+    - 7
+    - '2016-06-24 13:30:53.310423'
+    - '2016-06-24 13:30:53.310423'
+  - - 197
+    - Ardennenstraße
+    - Regensburg, Ardennenstraße
+    - 7
+    - '2016-06-24 13:30:53.411489'
+    - '2016-06-24 13:30:53.411489'
+  - - 198
+    - Wutzlhofen
+    - Regensburg, Wutzlhofen
+    - 8
+    - '2016-06-24 13:45:37.484545'
+    - '2016-06-24 13:45:37.484545'
+  - - 199
+    - Ardennenstraße
+    - Regensburg, Ardennenstraße
+    - 8
+    - '2016-06-24 13:45:37.595670'
+    - '2016-06-24 13:45:37.595670'
+  - - 200
+    - Schlesierstraße
+    - Regensburg, Schlesierstraße
+    - 8
+    - '2016-06-24 13:45:37.713069'
+    - '2016-06-24 13:45:37.713069'
+  - - 201
+    - Kötztinger Straße
+    - Regensburg, Kötztinger Straße
+    - 8
+    - '2016-06-24 13:45:37.831431'
+    - '2016-06-24 13:45:37.831431'
+  - - 202
+    - Gallingkofen
+    - Regensburg, Gallingkofen
+    - 8
+    - '2016-06-24 13:45:37.940800'
+    - '2016-06-24 13:45:37.940800'
+  - - 203
+    - Amberger Straße
+    - Regensburg, Amberger Straße
+    - 8
+    - '2016-06-24 13:45:38.050343'
+    - '2016-06-24 13:45:38.050343'
+  - - 204
+    - Regensburg Spessartstraße
+    - Regensburg, Regensburg Spessartstraße
+    - 8
+    - '2016-06-24 13:45:38.168354'
+    - '2016-06-24 13:45:38.168354'
+  - - 205
+    - Siebenbürgener Straße
+    - Regensburg, Siebenbürgener Straße
+    - 8
+    - '2016-06-24 13:45:38.278007'
+    - '2016-06-24 13:45:38.278007'
+  - - 206
+    - Im Reichen Winkel
+    - Regensburg, Im Reichen Winkel
+    - 8
+    - '2016-06-24 13:45:38.380387'
+    - '2016-06-24 13:45:38.380387'
+  - - 207
+    - Sallerner Berg
+    - Regensburg, Sallerner Berg
+    - 8
+    - '2016-06-24 13:45:38.497963'
+    - '2016-06-24 13:45:38.497963'
+  - - 208
+    - Fluderstraße
+    - Regensburg, Fluderstraße
+    - 8
+    - '2016-06-24 13:45:38.607879'
+    - '2016-06-24 13:45:38.607879'
+  - - 209
+    - Schule St. Nikola
+    - Regensburg, Schule St. Nikola
+    - 8
+    - '2016-06-24 13:45:38.726187'
+    - '2016-06-24 13:45:38.726187'
+  - - 210
+    - Reinhausen Brücke
+    - Regensburg, Reinhausen Brücke
+    - 8
+    - '2016-06-24 13:45:38.859521'
+    - '2016-06-24 13:45:38.859521'
+  - - 211
+    - Reinhausen Kirche
+    - Regensburg, Reinhausen Kirche
+    - 8
+    - '2016-06-24 13:45:39.095283'
+    - '2016-06-24 13:45:39.095283'
+  - - 212
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 8
+    - '2016-06-24 13:45:39.231227'
+    - '2016-06-24 13:45:39.231227'
+  - - 213
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 8
+    - '2016-06-24 13:45:39.357699'
+    - '2016-06-24 13:45:39.357699'
+  - - 214
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 8
+    - '2016-06-24 13:45:39.484128'
+    - '2016-06-24 13:45:39.484128'
+  - - 215
+    - Wöhrdstraße
+    - Regensburg, Wöhrdstraße
+    - 8
+    - '2016-06-24 13:45:39.619058'
+    - '2016-06-24 13:45:39.619058'
+  - - 216
+    - Eiserne Brücke
+    - Regensburg, Eiserne Brücke
+    - 8
+    - '2016-06-24 13:45:39.753949'
+    - '2016-06-24 13:45:39.753949'
+  - - 217
+    - Dachauplatz
+    - Regensburg, Dachauplatz
+    - 8
+    - '2016-06-24 13:45:39.864423'
+    - '2016-06-24 13:45:39.864423'
+  - - 218
+    - HBF/Albertstraße
+    - Regensburg, HBF/Albertstraße
+    - 8
+    - '2016-06-24 13:45:40.016344'
+    - '2016-06-24 13:45:40.016344'
+  - - 219
+    - HBF Süd/Arcaden
+    - Regensburg, HBF Süd/Arcaden
+    - 8
+    - '2016-06-24 13:45:40.134453'
+    - '2016-06-24 13:45:40.134453'
+  - - 220
+    - Unterer kath. Friedhof
+    - Regensburg, Unterer kath. Friedhof
+    - 8
+    - '2016-06-24 13:45:40.252378'
+    - '2016-06-24 13:45:40.252378'
+  - - 221
+    - Antoniuskirche
+    - Regensburg, Antoniuskirche
+    - 8
+    - '2016-06-24 13:45:40.362157'
+    - '2016-06-24 13:45:40.362157'
+  - - 222
+    - Alfons-Auer-Straße
+    - Regensburg, Alfons-Auer-Straße
+    - 8
+    - '2016-06-24 13:45:40.471423'
+    - '2016-06-24 13:45:40.471423'
+  - - 223
+    - Brahmsstraße
+    - Regensburg, Brahmsstraße
+    - 8
+    - '2016-06-24 13:45:40.590692'
+    - '2016-06-24 13:45:40.590692'
+  - - 224
+    - An der Iselrinne
+    - Regensburg, An der Iselrinne
+    - 8
+    - '2016-06-24 13:45:40.708655'
+    - '2016-06-24 13:45:40.708655'
+  - - 225
+    - Tulpenweg
+    - Regensburg, Tulpenweg
+    - 8
+    - '2016-06-24 13:45:40.826812'
+    - '2016-06-24 13:45:40.826812'
+  - - 226
+    - Humboldtstraße
+    - Regensburg, Humboldtstraße
+    - 8
+    - '2016-06-24 13:45:40.944490'
+    - '2016-06-24 13:45:40.944490'
+  - - 227
+    - Humboldtstraße Bürgerhaus
+    - Regensburg, Humboldtstraße Bürgerhaus
+    - 8
+    - '2016-06-24 13:45:41.062486'
+    - '2016-06-24 13:45:41.062486'
+  - - 228
+    - Johann-Hösl-Straße
+    - Regensburg, Johann-Hösl-Straße
+    - 8
+    - '2016-06-24 13:45:41.163725'
+    - '2016-06-24 13:45:41.163725'
+  - - 229
+    - Continental Arena
+    - Regensburg, Continental Arena
+    - 8
+    - '2016-06-24 13:45:41.274622'
+    - '2016-06-24 13:45:41.274622'
+  - - 230
+    - Oberisling Rauberstraße
+    - Regensburg, Oberisling Rauberstraße
+    - 8
+    - '2016-06-24 13:45:41.392425'
+    - '2016-06-24 13:45:41.392425'
+  - - 231
+    - Oberisling
+    - Regensburg, Oberisling
+    - 8
+    - '2016-06-24 13:45:41.510340'
+    - '2016-06-24 13:45:41.510340'
+  - - 232
+    - Lieperkingstraße
+    - Regensburg, Lieperkingstraße
+    - 8
+    - '2016-06-24 13:45:41.619942'
+    - '2016-06-24 13:45:41.619942'
+  - - 233
+    - Leoprechting
+    - Regensburg, Leoprechting
+    - 8
+    - '2016-06-24 13:45:41.737953'
+    - '2016-06-24 13:45:41.737953'
+  - - 234
+    - Universität
+    - Regensburg, Universität
+    - 9
+    - '2016-06-24 13:53:43.250261'
+    - '2016-06-24 13:53:43.250261'
+  - - 235
+    - Wolfgangschule Nord
+    - Regensburg, Wolfgangschule Nord
+    - 9
+    - '2016-06-24 13:53:43.377564'
+    - '2016-06-24 13:53:43.377564'
+  - - 236
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 9
+    - '2016-06-24 13:53:43.495401'
+    - '2016-06-24 13:53:43.495401'
+  - - 237
+    - Nibelungenstraße
+    - Regensburg, Nibelungenstraße
+    - 9
+    - '2016-06-24 13:53:43.614560'
+    - '2016-06-24 13:53:43.614560'
+  - - 238
+    - Kaulbachweg
+    - Regensburg, Kaulbachweg
+    - 9
+    - '2016-06-24 13:53:43.732583'
+    - '2016-06-24 13:53:43.732583'
+  - - 239
+    - Klenzestraße
+    - Regensburg, Klenzestraße
+    - 9
+    - '2016-06-24 13:53:43.850499'
+    - '2016-06-24 13:53:43.850499'
+  - - 240
+    - Dr.-Gessler-Straße
+    - Regensburg, Dr.-Gessler-Straße
+    - 9
+    - '2016-06-24 13:53:43.951844'
+    - '2016-06-24 13:53:43.951844'
+  - - 241
+    - Dürerstraße
+    - Regensburg, Dürerstraße
+    - 9
+    - '2016-06-24 13:53:44.044959'
+    - '2016-06-24 13:53:44.044959'
+  - - 242
+    - Schwalbenneststraße
+    - Regensburg, Schwalbenneststraße
+    - 9
+    - '2016-06-24 13:53:44.163040'
+    - '2016-06-24 13:53:44.163040'
+  - - 243
+    - Dechbetten-TELIS FINANZ
+    - Regensburg, Dechbetten-TELIS FINANZ
+    - 9
+    - '2016-06-24 13:53:44.290483'
+    - '2016-06-24 13:53:44.290483'
+  - - 244
+    - Lilienthalstraße
+    - Regensburg, Lilienthalstraße
+    - 9
+    - '2016-06-24 13:53:44.408512'
+    - '2016-06-24 13:53:44.408512'
+  - - 245
+    - Margaretenau/KH Barm. Brüder
+    - Regensburg, Margaretenau/KH Barm. Brüder
+    - 9
+    - '2016-06-24 13:53:44.551714'
+    - '2016-06-24 13:53:44.551714'
+  - - 246
+    - Lessingstraße
+    - Regensburg, Lessingstraße
+    - 9
+    - '2016-06-24 13:53:44.661747'
+    - '2016-06-24 13:53:44.661747'
+  - - 247
+    - Goethestraße
+    - Regensburg, Goethestraße
+    - 9
+    - '2016-06-24 13:53:44.796390'
+    - '2016-06-24 13:53:44.796390'
+  - - 248
+    - Taxisstraße
+    - Regensburg, Taxisstraße
+    - 9
+    - '2016-06-24 13:53:45.090585'
+    - '2016-06-24 13:53:45.090585'
+  - - 249
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 9
+    - '2016-06-24 13:53:45.208491'
+    - '2016-06-24 13:53:45.208491'
+  - - 250
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 9
+    - '2016-06-24 13:53:45.326458'
+    - '2016-06-24 13:53:45.326458'
+  - - 251
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 9
+    - '2016-06-24 13:53:45.436046'
+    - '2016-06-24 13:53:45.436046'
+  - - 252
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 9
+    - '2016-06-24 13:53:45.537319'
+    - '2016-06-24 13:53:45.537319'
+  - - 253
+    - Eiserne Brücke
+    - Regensburg, Eiserne Brücke
+    - 9
+    - '2016-06-24 13:53:45.638782'
+    - '2016-06-24 13:53:45.638782'
+  - - 254
+    - Wöhrdstraße
+    - Regensburg, Wöhrdstraße
+    - 9
+    - '2016-06-24 13:53:45.764898'
+    - '2016-06-24 13:53:45.764898'
+  - - 255
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 9
+    - '2016-06-24 13:53:45.883376'
+    - '2016-06-24 13:53:45.883376'
+  - - 256
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 9
+    - '2016-06-24 13:53:45.993417'
+    - '2016-06-24 13:53:45.993417'
+  - - 257
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 9
+    - '2016-06-24 13:53:46.111428'
+    - '2016-06-24 13:53:46.111428'
+  - - 258
+    - Schulzentrum Isarstraße
+    - Regensburg, Schulzentrum Isarstraße
+    - 9
+    - '2016-06-24 13:53:46.212832'
+    - '2016-06-24 13:53:46.212832'
+  - - 259
+    - Lechstraße
+    - Regensburg, Lechstraße
+    - 9
+    - '2016-06-24 13:53:46.330732'
+    - '2016-06-24 13:53:46.330732'
+  - - 260
+    - Loisachstraße
+    - Regensburg, Loisachstraße
+    - 9
+    - '2016-06-24 13:53:46.470125'
+    - '2016-06-24 13:53:46.470125'
+  - - 261
+    - Harthof
+    - Regensburg, Harthof
+    - 9
+    - '2016-06-24 13:53:46.601185'
+    - '2016-06-24 13:53:46.601185'
+  - - 262
+    - Danziger Freiheit
+    - Regensburg, Danziger Freiheit
+    - 10
+    - '2016-06-24 13:54:47.562682'
+    - '2016-06-24 13:54:47.562682'
+  - - 263
+    - Harthof
+    - Regensburg, Harthof
+    - 10
+    - '2016-06-24 13:54:47.701102'
+    - '2016-06-24 13:54:47.701102'
+  - - 264
+    - Loisachstraße
+    - Regensburg, Loisachstraße
+    - 10
+    - '2016-06-24 13:54:47.802397'
+    - '2016-06-24 13:54:47.802397'
+  - - 265
+    - Lechstraße
+    - Regensburg, Lechstraße
+    - 10
+    - '2016-06-24 13:54:47.903554'
+    - '2016-06-24 13:54:47.903554'
+  - - 266
+    - Schulzentrum Isarstraße
+    - Regensburg, Schulzentrum Isarstraße
+    - 10
+    - '2016-06-24 13:54:48.021545'
+    - '2016-06-24 13:54:48.021545'
+  - - 267
+    - Nordgaustraße
+    - Regensburg, Nordgaustraße
+    - 10
+    - '2016-06-24 13:54:48.139673'
+    - '2016-06-24 13:54:48.139673'
+  - - 268
+    - Donaustaufer Straße
+    - Regensburg, Donaustaufer Straße
+    - 10
+    - '2016-06-24 13:54:48.249331'
+    - '2016-06-24 13:54:48.249331'
+  - - 269
+    - Weichs-DEZ
+    - Regensburg, Weichs-DEZ
+    - 10
+    - '2016-06-24 13:54:48.368429'
+    - '2016-06-24 13:54:48.368429'
+  - - 270
+    - Wöhrdstraße
+    - Regensburg, Wöhrdstraße
+    - 10
+    - '2016-06-24 13:54:48.494826'
+    - '2016-06-24 13:54:48.494826'
+  - - 271
+    - Eiserne Brücke
+    - Regensburg, Eiserne Brücke
+    - 10
+    - '2016-06-24 13:54:48.596119'
+    - '2016-06-24 13:54:48.596119'
+  - - 272
+    - Thundorferstraße
+    - Regensburg, Thundorferstraße
+    - 10
+    - '2016-06-24 13:54:48.722575'
+    - '2016-06-24 13:54:48.722575'
+  - - 273
+    - Fischmarkt
+    - Regensburg, Fischmarkt
+    - 10
+    - '2016-06-24 13:54:48.832211'
+    - '2016-06-24 13:54:48.832211'
+  - - 274
+    - Keplerstraße
+    - Regensburg, Keplerstraße
+    - 10
+    - '2016-06-24 13:54:48.950145'
+    - '2016-06-24 13:54:48.950145'
+  - - 275
+    - Arnulfsplatz
+    - Regensburg, Arnulfsplatz
+    - 10
+    - '2016-06-24 13:54:49.060989'
+    - '2016-06-24 13:54:49.060989'
+  - - 276
+    - Taxisstraße
+    - Regensburg, Taxisstraße
+    - 10
+    - '2016-06-24 13:54:49.162350'
+    - '2016-06-24 13:54:49.162350'
+  - - 277
+    - Goethestraße
+    - Regensburg, Goethestraße
+    - 10
+    - '2016-06-24 13:54:49.263742'
+    - '2016-06-24 13:54:49.263742'
+  - - 278
+    - Lessingstraße
+    - Regensburg, Lessingstraße
+    - 10
+    - '2016-06-24 13:54:49.373500'
+    - '2016-06-24 13:54:49.373500'
+  - - 279
+    - Margaretenau/KH Barm. Brüder
+    - Regensburg, Margaretenau/KH Barm. Brüder
+    - 10
+    - '2016-06-24 13:54:49.491476'
+    - '2016-06-24 13:54:49.491476'
+  - - 280
+    - Michael-Burgau-Straße
+    - Regensburg, Michael-Burgau-Straße
+    - 10
+    - '2016-06-24 13:54:49.593833'
+    - '2016-06-24 13:54:49.593833'
+  - - 281
+    - Lilienthalstraße
+    - Regensburg, Lilienthalstraße
+    - 10
+    - '2016-06-24 13:54:49.712229'
+    - '2016-06-24 13:54:49.712229'
+  - - 282
+    - Dechbetten-TELIS FINANZ
+    - Regensburg, Dechbetten-TELIS FINANZ
+    - 10
+    - '2016-06-24 13:54:49.805132'
+    - '2016-06-24 13:54:49.805132'
+  - - 283
+    - Schwalbenneststraße
+    - Regensburg, Schwalbenneststraße
+    - 10
+    - '2016-06-24 13:54:49.906540'
+    - '2016-06-24 13:54:49.906540'
+  - - 284
+    - Dürerstraße
+    - Regensburg, Dürerstraße
+    - 10
+    - '2016-06-24 13:54:50.133734'
+    - '2016-06-24 13:54:50.133734'
+  - - 285
+    - Dr.-Gessler-Straße
+    - Regensburg, Dr.-Gessler-Straße
+    - 10
+    - '2016-06-24 13:54:50.243355'
+    - '2016-06-24 13:54:50.243355'
+  - - 286
+    - Klenzestraße
+    - Regensburg, Klenzestraße
+    - 10
+    - '2016-06-24 13:54:50.354196'
+    - '2016-06-24 13:54:50.354196'
+  - - 287
+    - Kaulbachweg
+    - Regensburg, Kaulbachweg
+    - 10
+    - '2016-06-24 13:54:50.447198'
+    - '2016-06-24 13:54:50.447198'
+  - - 288
+    - Nibelungenstraße
+    - Regensburg, Nibelungenstraße
+    - 10
+    - '2016-06-24 13:54:50.573531'
+    - '2016-06-24 13:54:50.573531'
+  - - 289
+    - Theodor-Storm-Straße
+    - Regensburg, Theodor-Storm-Straße
+    - 10
+    - '2016-06-24 13:54:50.700240'
+    - '2016-06-24 13:54:50.700240'
+  - - 290
+    - Wolfgangschule Nord
+    - Regensburg, Wolfgangschule Nord
+    - 10
+    - '2016-06-24 13:54:50.834989'
+    - '2016-06-24 13:54:50.834989'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - password_digest
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - volker
+    - "$2a$10$K4RzkDR8RZO1ce/DDS.RlOM9V6u.uKkzyTPG7VJ9uKtt9nJ6WvkuW"
+    - '2016-06-24 11:28:52.487781'
+    - '2016-06-24 11:28:52.487781'
+
+---
+bus_lines:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  - active
+  records: 
+  - - 1
+    - Linie1
+    - '2016-06-24 11:29:33.709132'
+    - '2016-06-24 11:29:33.709132'
+    - true
+  - - 2
+    - Linie2A
+    - '2016-06-24 11:44:26.299535'
+    - '2016-06-24 11:44:26.299535'
+    - true
+  - - 3
+    - Linie2B
+    - '2016-06-24 12:39:10.855385'
+    - '2016-06-24 12:39:10.855385'
+    - true
+  - - 4
+    - Linie3
+    - '2016-06-24 13:24:58.137097'
+    - '2016-06-24 13:24:58.137097'
+    - true
+  - - 5
+    - Linie4
+    - '2016-06-24 13:50:51.899512'
+    - '2016-06-24 13:50:51.899512'
+    - true
