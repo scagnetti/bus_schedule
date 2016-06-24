@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150410143341) do
+ActiveRecord::Schema.define(version: 20160624140844) do
 
   create_table "bus_lines", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "active",     default: true
   end
 
   create_table "bus_stops", force: :cascade do |t|
