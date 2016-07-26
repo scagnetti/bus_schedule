@@ -1,12 +1,3 @@
-<script>
-  var hideModal = function(){
-    $('#myModal').modal('hide');
-  }
-  var startTimer = function(){
-    window.setTimeout(hideModal, 3500);
-  }
-</script>
-
 <ol class="breadcrumb">
   <li><%= link_to 'Buslinien', bus_lines_path %></li>
   <li><%= link_to @direction.bus_line.name, bus_line_path(@direction.bus_line) %></li>
@@ -22,7 +13,7 @@
     <% @direction.bus_stops.each do |bus_stop| %>
       <li class="list-group-item">
         <!-- Show a loading indicator-->
-        <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false}); startTimer();"} %>
+        <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#loadingAnimation').modal({backdrop: 'static', keyboard: false});"} %>
         <%= link_to 'Edit', edit_bus_stop_path(bus_stop) %> / 
         <%= link_to 'Destroy', bus_stop, method: :delete, data: { confirm: 'Are you sure?' } %>
       </li>
@@ -35,19 +26,19 @@
   <div class="list-group">
     <% @direction.bus_stops.each do |bus_stop| %>
       <!-- Show a loading indicator-->
-      <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#myModal').modal({backdrop: 'static', keyboard: false}); startTimer();"} %>
+      <%= link_to bus_stop.display_name, bus_stop, {class: "list-group-item", :onclick => "$('#loadingAnimation').modal({backdrop: 'static', keyboard: false});"} %>
     <% end %>
   </div>
 
 <% end %>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="loadingAnimation" tabindex="-1" role="dialog" aria-labelledby="loadingAnimationLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
 
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Abfrage läuft...</h4>
+        <h4 class="modal-title" id="loadingAnimationLabel">Abfrage läuft...</h4>
       </div>
 
       <div class="modal-body">

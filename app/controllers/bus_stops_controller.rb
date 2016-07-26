@@ -34,16 +34,16 @@ class BusStopsController < ApplicationController
     dps.each do |d|
       # Add the current date, hours and minutes should alway have two digits
       tmp = sprintf("%s %02d:%02d:00", date_part, d.hour, d.minute)
-      puts "Formatted deparute time (with date): #{tmp}"
+      logger.info "Formatted deparute time (with date): #{tmp}"
       result << tmp
     end
     return result
   end
 
   def search(p_direction, p_bus_stop)
-    puts "Starting query on bayern-fahrplan.de with:"
-    puts "Direction: #{p_direction}"
-    puts "Bus Stop: #{p_bus_stop}"
+    logger.info "Starting query on bayern-fahrplan.de with:"
+    logger.info "Direction: #{p_direction}"
+    logger.info "Bus Stop: #{p_bus_stop}"
     # ========Set up begin====================================
     options = {js_errors: false}
     Capybara.register_driver :poltergeist do |app|
@@ -72,7 +72,7 @@ class BusStopsController < ApplicationController
     # Deselect everything
     internet.find(:xpath, '//a[@class = "checknone"]').click
     # Select transportation type 'Regionalbus'
-    internet.find(:xpath, '//label[text() = "Regionalbus"]').click
+    internet.find(:xpath, '//label[text() = "Stadtbus"]').click
     # Select the right direction
     xpath = "//label[text() = '%s']" % p_direction
     id = internet.first(:xpath, xpath)['for']
@@ -89,9 +89,9 @@ class BusStopsController < ApplicationController
 
     found_departures = []
     internet.all(:xpath, xpath_value).each { |td|
-      puts "Candidate for departure: #{td.text}"
+      logger.info "Candidate for departure: #{td.text}"
       if match = td.text.match(/^(\d{2,2}):(\d{2,2}).*$/)
-        puts "Accepted candidate: #{td.text}"
+        logger.info "Accepted candidate: #{td.text}"
         d = Departure.new
         d.bus_stop_id = @bus_stop.id
         d.hour = match[1].strip.to_i
@@ -99,7 +99,7 @@ class BusStopsController < ApplicationController
         found_departures << d
       end
     }
-    puts "Anzahl gefundener Abfahrtszeiten: #{found_departures.size()}"
+    logger.info "Anzahl gefundener Abfahrtszeiten: #{found_departures.size()}"
     return found_departures;
   end
 
