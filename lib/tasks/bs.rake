@@ -15,7 +15,7 @@ namespace :bs do
       response = http.request_head("/bus_stops/%s" % bs.id)
       if response.code != "200"
         counter = counter + 1
-        puts "Code: #{response.code} - bs.direction.bus_line.name > #{bs.direction.search_name} > #{bs.search_name}" 
+        puts "Code: #{response.code} - #{bs.direction.bus_line.name} > #{bs.direction.search_name} > #{bs.search_name}" 
       end
     end
     
