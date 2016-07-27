@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  #before_filter :set_cache_headers
+
   rescue_from User::NotAuthorized, with: :user_not_authorized
 
   private
@@ -21,4 +23,7 @@ class ApplicationController < ActionController::Base
     render plain: "401 Not Authorized", status: 401
   end
 
+  #def set_cache_headers
+  #  response.headers["Cache-Control"] = "no-store"
+  #end
 end

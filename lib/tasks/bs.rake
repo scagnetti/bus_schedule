@@ -1,6 +1,26 @@
 # encoding: utf-8
+require 'net/http'
 
 namespace :bs do
+
+  desc "Check extraction logic for all bus_stops"
+  task :check_all => :environment do |t, args|
+
+    http = Net::HTTP.new('busabfahrt.v22016063629535037.supersrv.de',80)
+
+    counter = 0
+
+    #BusStop.where("id < ?", 5).each do |bs|
+    BusStop.all.each do |bs|
+      response = http.request_head("/bus_stops/%s" % bs.id)
+      if response.code != "200"
+        counter = counter + 1
+        puts "bus_stop #{bs.search_name}, with direction #{bs.direction.search_name} failed. Http status code: #{response.code}" 
+      end
+    end
+    
+    puts "#{counter} checks failed"
+  end
 
   # rake bs:from_file
   desc "Create new bus stop from the information given in bs_input.txt"
