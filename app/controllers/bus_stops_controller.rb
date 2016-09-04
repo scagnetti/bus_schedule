@@ -73,6 +73,7 @@ class BusStopsController < ApplicationController
     internet.find(:xpath, '//a[@class = "checknone"]').click
     # Select transportation type 'Regionalbus'
     internet.find(:xpath, '//label[text() = "Stadtbus"]').click
+    internet.find(:xpath, '//label[text() = "Regionalbus"]').click
     # Select the right direction
     xpath = "//label[contains(., '%s')]" % p_direction
     id = internet.first(:xpath, xpath)['for']
